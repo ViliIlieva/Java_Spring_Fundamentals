@@ -1,4 +1,6 @@
 package bg.softuni.MobiLeLeLe.model.enums;
 
-public enum RoleEnum {
+public enum Role {
+    USER,
+    ADMIN
 }
