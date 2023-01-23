@@ -10,17 +10,21 @@ public class Comment {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
+    @Column
     private boolean approved;
 
+    @Column
     private LocalDateTime created;
 
-    @Column(columnDefinition = "TEXT", nullable = false)
+    @Column(columnDefinition = "TEXT", nullable = false, name = "text_content")
     private String text;
 
-    @ManyToOne
+    @ManyToOne//един юзър може да оставя много коментари
+    //един коментар може да е написан само от един автор
     private User author;
 
-    @ManyToOne
+    @ManyToOne//един тур може да има много коментари
+    //но даден коментар е написан за точно определен тур
     private Route route;
 
     public Comment() {}

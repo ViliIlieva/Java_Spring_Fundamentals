@@ -9,6 +9,7 @@ public class Picture {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
+    @Column
     private String title;
 
     @Column(nullable = false)

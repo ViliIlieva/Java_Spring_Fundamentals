@@ -14,11 +14,13 @@ public class Route {
     private long id;
 
     @Lob
+    @Column(name = "gpx_coordinates")
     private String gpxCoordinates;
 
     @Enumerated(EnumType.STRING)
     private Level level;
 
+    @Column
     private String name;
 
     @Column(columnDefinition = "TEXT")
@@ -28,9 +30,11 @@ public class Route {
     @MapsId("id")
     private User author;
 
+    @Column(name = "video_url")
     private String videoUrl;
 
-    @OneToMany(targetEntity = Comment.class, mappedBy = "route", cascade = CascadeType.ALL)
+    @OneToMany(targetEntity = Comment.class, mappedBy = "route", cascade = CascadeType.ALL)//каскейд тайп, ако маршрута изчезне изчезват и коментарите
+    //един тур има много коментари, в полето комент се свързва с раут
     private Set<Comment> comments;
 
     @OneToMany(mappedBy = "route", fetch = FetchType.EAGER)

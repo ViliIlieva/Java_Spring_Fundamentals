@@ -26,6 +26,7 @@ public class User implements Serializable {
     @Column(name = "full_name")
     private String fullName;
 
+    @Column
     private int age;
 
     @ManyToMany(fetch = FetchType.EAGER)
