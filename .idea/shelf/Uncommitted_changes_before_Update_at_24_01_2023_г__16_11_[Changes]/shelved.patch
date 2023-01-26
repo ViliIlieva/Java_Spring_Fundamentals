@@ -1,0 +1,2287 @@
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1674550920657)
++++ b/.idea/vcs.xml	(date 1674550920657)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1674550921091)
++++ b/.idea/.gitignore	(date 1674550921091)
+@@ -0,0 +1,8 @@
++# Default ignored files
++/shelf/
++/workspace.xml
++# Editor-based HTTP Client requests
++/httpRequests/
++# Datasource local storage ignored files
++/dataSources/
++/dataSources.local.xml
+Index: .idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/encodings.xml b/.idea/encodings.xml
+new file mode 100644
+--- /dev/null	(date 1674550920625)
++++ b/.idea/encodings.xml	(date 1674550920625)
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Encoding">
++    <file url="file://$PROJECT_DIR$/Pathfinder/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/Pathfinder/src/main/resources" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/SpringMvcDemo/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/SpringMvcDemo/src/main/resources" charset="UTF-8" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/gradle.xml b/.idea/gradle.xml
+new file mode 100644
+--- /dev/null	(date 1674568204053)
++++ b/.idea/gradle.xml	(date 1674568204053)
+@@ -0,0 +1,28 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="GradleMigrationSettings" migrationVersion="1" />
++  <component name="GradleSettings">
++    <option name="linkedExternalProjectsSettings">
++      <GradleProjectSettings>
++        <option name="distributionType" value="DEFAULT_WRAPPED" />
++        <option name="externalProjectPath" value="$PROJECT_DIR$/MobiLeLeLe" />
++        <option name="gradleJvm" value="corretto-17" />
++        <option name="modules">
++          <set>
++            <option value="$PROJECT_DIR$/MobiLeLeLe" />
++          </set>
++        </option>
++      </GradleProjectSettings>
++      <GradleProjectSettings>
++        <option name="distributionType" value="DEFAULT_WRAPPED" />
++        <option name="externalProjectPath" value="$PROJECT_DIR$/intro" />
++        <option name="gradleJvm" value="corretto-17" />
++        <option name="modules">
++          <set>
++            <option value="$PROJECT_DIR$/intro" />
++          </set>
++        </option>
++      </GradleProjectSettings>
++    </option>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/jarRepositories.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/jarRepositories.xml b/.idea/jarRepositories.xml
+new file mode 100644
+--- /dev/null	(date 1674568779891)
++++ b/.idea/jarRepositories.xml	(date 1674568779891)
+@@ -0,0 +1,25 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="RemoteRepositoriesConfiguration">
++    <remote-repository>
++      <option name="id" value="central" />
++      <option name="name" value="Central Repository" />
++      <option name="url" value="https://repo.maven.apache.org/maven2" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="MavenRepo" />
++      <option name="name" value="MavenRepo" />
++      <option name="url" value="https://repo.maven.apache.org/maven2/" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="central" />
++      <option name="name" value="Maven Central repository" />
++      <option name="url" value="https://repo1.maven.org/maven2" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="jboss.community" />
++      <option name="name" value="JBoss Community repository" />
++      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
++    </remote-repository>
++  </component>
++</project>
+\ No newline at end of file
+Index: MobiLeLeLe/src/test/java/com/softuni/mobilele/MobileleApplicationTests.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/src/test/java/com/softuni/mobilele/MobileleApplicationTests.java b/MobiLeLeLe/src/test/java/com/softuni/mobilele/MobileleApplicationTests.java
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/src/test/java/com/softuni/mobilele/MobileleApplicationTests.java	(date 1674504342000)
+@@ -0,0 +1,13 @@
++package com.softuni.mobilele;
++
++import org.junit.jupiter.api.Test;
++import org.springframework.boot.test.context.SpringBootTest;
++
++@SpringBootTest
++class MobileleApplicationTests {
++
++    @Test
++    void contextLoads() {
++    }
++
++}
+Index: MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/dtoS/model/BaseEntityDto.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/dtoS/model/BaseEntityDto.java b/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/dtoS/model/BaseEntityDto.java
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/dtoS/model/BaseEntityDto.java	(date 1674504342000)
+@@ -0,0 +1,19 @@
++package com.softuni.mobilele.domain.dtoS.model;
++
++public abstract class BaseEntityDto {
++
++    private String id;
++
++    public BaseEntityDto() {
++    }
++
++    public String getId() {
++        return id;
++    }
++
++    public BaseEntityDto setId(String id) {
++        this.id = id;
++        return this;
++    }
++
++}
+Index: MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/dtoS/model/BrandDto.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/dtoS/model/BrandDto.java b/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/dtoS/model/BrandDto.java
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/dtoS/model/BrandDto.java	(date 1674504342000)
+@@ -0,0 +1,39 @@
++package com.softuni.mobilele.domain.dtoS.model;
++
++import java.util.Date;
++
++public class BrandDto extends BaseEntityDto {
++
++    private String name;
++
++    private Date created;
++
++    private Date modified;
++
++    public String getName() {
++        return name;
++    }
++
++    public BrandDto setName(String name) {
++        this.name = name;
++        return this;
++    }
++
++    public Date getCreated() {
++        return created;
++    }
++
++    public BrandDto setCreated(Date created) {
++        this.created = created;
++        return this;
++    }
++
++    public Date getModified() {
++        return modified;
++    }
++
++    public BrandDto setModified(Date modified) {
++        this.modified = modified;
++        return this;
++    }
++}
+\ No newline at end of file
+Index: MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/dtoS/banding/UserRegisterFormDto.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/dtoS/banding/UserRegisterFormDto.java b/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/dtoS/banding/UserRegisterFormDto.java
+new file mode 100644
+--- /dev/null	(date 1674569029841)
++++ b/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/dtoS/banding/UserRegisterFormDto.java	(date 1674569029841)
+@@ -0,0 +1,59 @@
++package com.softuni.mobilele.domain.dtoS.banding;
++
++public class UserRegisterFormDto {
++
++    private String username; // –  username of the user.
++
++    private String password; //– password of the user.
++
++    private String firstName; //–  first name of the user.
++
++    private String lastName; //–  last name of the user.
++
++    private String role; //–  last name of the user.
++
++    public String getUsername() {
++        return username;
++    }
++
++    public UserRegisterFormDto setUsername(String username) {
++        this.username = username;
++        return this;
++    }
++
++    public String getPassword() {
++        return password;
++    }
++
++    public UserRegisterFormDto setPassword(String password) {
++        this.password = password;
++        return this;
++    }
++
++    public String getFirstName() {
++        return firstName;
++    }
++
++    public UserRegisterFormDto setFirstName(String firstName) {
++        this.firstName = firstName;
++        return this;
++    }
++
++    public String getLastName() {
++        return lastName;
++    }
++
++    public UserRegisterFormDto setLastName(String lastName) {
++        this.lastName = lastName;
++        return this;
++    }
++
++    public String getRole() {
++        return role;
++    }
++
++    public UserRegisterFormDto setRole(String role) {
++        this.role = role;
++        return this;
++    }
++}
+Index: MobiLeLeLe/src/main/resources/application.yml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/src/main/resources/application.yml b/MobiLeLeLe/src/main/resources/application.yml
+new file mode 100644
+--- /dev/null	(date 1674569362235)
++++ b/MobiLeLeLe/src/main/resources/application.yml	(date 1674569362235)
+@@ -0,0 +1,21 @@
++logging:
++    level:
++        blog: WARN
++        org: WARN
++        org.hibernate.SQL: DEBUG
++server:
++    port: 8000
++spring:
++    datasource:
++        driverClassName: com.mysql.cj.jdbc.Driver
++        password: 1234
++        url: jdbc:mysql://localhost:3306/softuni-mobilele?allowPublicKeyRetrieval=true&useSSL=false&createDatabaseIfNotExist=true&serverTimezone=UTC
++        username: root
++    jpa:
++        hibernate:
++            ddl-auto: update
++        properties:
++            hibernate:
++                dialect: org.hibernate.dialect.MySQL8Dialect
++                format_sql: false
++                show_sql: false
+Index: MobiLeLeLe/src/main/java/com/softuni/mobilele/services/model/ModelServiceImpl.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/src/main/java/com/softuni/mobilele/services/model/ModelServiceImpl.java b/MobiLeLeLe/src/main/java/com/softuni/mobilele/services/model/ModelServiceImpl.java
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/src/main/java/com/softuni/mobilele/services/model/ModelServiceImpl.java	(date 1674504342000)
+@@ -0,0 +1,27 @@
++package com.softuni.mobilele.services.model;
++
++import com.softuni.mobilele.repositories.ModelRepository;
++import com.softuni.mobilele.services.init.DataBaseInitServiceService;
++import org.springframework.beans.factory.annotation.Autowired;
++import org.springframework.stereotype.Service;
++
++@Service
++public class ModelServiceImpl implements ModelService, DataBaseInitServiceService {
++
++    private final ModelRepository modelRepository;
++
++    @Autowired
++    public ModelServiceImpl(ModelRepository modelRepository) {
++        this.modelRepository = modelRepository;
++    }
++
++    @Override
++    public void dbInit() {
++
++    }
++
++    @Override
++    public boolean isDbInit() {
++        return this.modelRepository.count() > 0;
++    }
++}
+Index: MobiLeLeLe/src/main/java/com/softuni/mobilele/services/offers/OfferService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/src/main/java/com/softuni/mobilele/services/offers/OfferService.java b/MobiLeLeLe/src/main/java/com/softuni/mobilele/services/offers/OfferService.java
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/src/main/java/com/softuni/mobilele/services/offers/OfferService.java	(date 1674504342000)
+@@ -0,0 +1,5 @@
++package com.softuni.mobilele.services.offers;
++
++public interface OfferService {
++
++}
+Index: MobiLeLeLe/src/main/java/com/softuni/mobilele/services/offers/OfferServiceImpl.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/src/main/java/com/softuni/mobilele/services/offers/OfferServiceImpl.java b/MobiLeLeLe/src/main/java/com/softuni/mobilele/services/offers/OfferServiceImpl.java
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/src/main/java/com/softuni/mobilele/services/offers/OfferServiceImpl.java	(date 1674504342000)
+@@ -0,0 +1,17 @@
++package com.softuni.mobilele.services.offers;
++
++import com.softuni.mobilele.services.init.DataBaseInitServiceService;
++import org.springframework.stereotype.Service;
++
++@Service
++public class OfferServiceImpl implements OfferService, DataBaseInitServiceService {
++    @Override
++    public void dbInit() {
++
++    }
++
++    @Override
++    public boolean isDbInit() {
++        return false;
++    }
++}
+\ No newline at end of file
+Index: MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/dtoS/veiw/UserRoleViewDto.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/dtoS/veiw/UserRoleViewDto.java b/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/dtoS/veiw/UserRoleViewDto.java
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/dtoS/veiw/UserRoleViewDto.java	(date 1674504342000)
+@@ -0,0 +1,16 @@
++package com.softuni.mobilele.domain.dtoS.veiw;
++
++import com.softuni.mobilele.domain.enums.Role;
++
++public class UserRoleViewDto {
++    private String role;
++
++    public String getRole() {
++        return role;
++    }
++
++    public UserRoleViewDto setRole(String role) {
++        this.role = role;
++        return this;
++    }
++}
+Index: MobiLeLeLe/src/main/java/com/softuni/mobilele/services/user/UserServiceImpl.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/src/main/java/com/softuni/mobilele/services/user/UserServiceImpl.java b/MobiLeLeLe/src/main/java/com/softuni/mobilele/services/user/UserServiceImpl.java
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/src/main/java/com/softuni/mobilele/services/user/UserServiceImpl.java	(date 1674504342000)
+@@ -0,0 +1,27 @@
++package com.softuni.mobilele.services.user;
++
++import com.softuni.mobilele.repositories.UserRepository;
++import com.softuni.mobilele.services.init.DataBaseInitServiceService;
++import org.springframework.beans.factory.annotation.Autowired;
++import org.springframework.stereotype.Service;
++
++@Service
++public class UserServiceImpl implements UserService, DataBaseInitServiceService {
++
++    private final UserRepository userRepository;
++
++    @Autowired
++    public UserServiceImpl(UserRepository userRepository) {
++        this.userRepository = userRepository;
++    }
++
++    @Override
++    public void dbInit() {
++
++    }
++
++    @Override
++    public boolean isDbInit() {
++        return this.userRepository.count() > 0;
++    }
++}
+\ No newline at end of file
+Index: MobiLeLeLe/src/main/java/com/softuni/mobilele/services/brand/BrandService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/src/main/java/com/softuni/mobilele/services/brand/BrandService.java b/MobiLeLeLe/src/main/java/com/softuni/mobilele/services/brand/BrandService.java
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/src/main/java/com/softuni/mobilele/services/brand/BrandService.java	(date 1674504342000)
+@@ -0,0 +1,4 @@
++package com.softuni.mobilele.services.brand;
++
++public interface BrandService {
++}
+\ No newline at end of file
+Index: MobiLeLeLe/src/main/java/com/softuni/mobilele/services/brand/BrandServiceImpl.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/src/main/java/com/softuni/mobilele/services/brand/BrandServiceImpl.java b/MobiLeLeLe/src/main/java/com/softuni/mobilele/services/brand/BrandServiceImpl.java
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/src/main/java/com/softuni/mobilele/services/brand/BrandServiceImpl.java	(date 1674504342000)
+@@ -0,0 +1,27 @@
++package com.softuni.mobilele.services.brand;
++
++import com.softuni.mobilele.repositories.BrandRepository;
++import com.softuni.mobilele.services.init.DataBaseInitServiceService;
++import org.springframework.beans.factory.annotation.Autowired;
++import org.springframework.stereotype.Service;
++
++@Service
++public class BrandServiceImpl implements BrandService, DataBaseInitServiceService {
++
++    private final BrandRepository brandRepository;
++
++    @Autowired
++    public BrandServiceImpl(BrandRepository brandRepository) {
++        this.brandRepository = brandRepository;
++    }
++
++    @Override
++    public void dbInit() {
++
++    }
++
++    @Override
++    public boolean isDbInit() {
++        return this.brandRepository.count() > 0;
++    }
++}
+\ No newline at end of file
+Index: MobiLeLeLe/src/main/java/com/softuni/mobilele/services/model/ModelService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/src/main/java/com/softuni/mobilele/services/model/ModelService.java b/MobiLeLeLe/src/main/java/com/softuni/mobilele/services/model/ModelService.java
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/src/main/java/com/softuni/mobilele/services/model/ModelService.java	(date 1674504342000)
+@@ -0,0 +1,5 @@
++package com.softuni.mobilele.services.model;
++
++public interface ModelService {
++
++}
+Index: MobiLeLeLe/src/main/java/com/softuni/mobilele/services/init/DataBaseInitServiceServiceImpl.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/src/main/java/com/softuni/mobilele/services/init/DataBaseInitServiceServiceImpl.java b/MobiLeLeLe/src/main/java/com/softuni/mobilele/services/init/DataBaseInitServiceServiceImpl.java
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/src/main/java/com/softuni/mobilele/services/init/DataBaseInitServiceServiceImpl.java	(date 1674504342000)
+@@ -0,0 +1,33 @@
++package com.softuni.mobilele.services.init;
++
++import com.softuni.mobilele.services.role.UserRoleService;
++import jakarta.annotation.PostConstruct;
++import org.springframework.beans.factory.annotation.Autowired;
++import org.springframework.stereotype.Service;
++
++@Service
++public class DataBaseInitServiceServiceImpl implements DataBaseInitServiceService {
++    private final UserRoleService roleService;
++
++    @Autowired
++    public DataBaseInitServiceServiceImpl(UserRoleService roleService) {
++        this.roleService = roleService;
++    }
++
++    @PostConstruct
++    public void postConstruct() {
++        dbInit();
++    }
++
++    @Override
++    public void dbInit() {
++        if (isDbInit()) {
++            this.roleService.dbInit();
++        }
++    }
++
++    @Override
++    public boolean isDbInit() {
++        return this.roleService.isDbInit();
++    }
++}
+\ No newline at end of file
+Index: MobiLeLeLe/src/main/java/com/softuni/mobilele/services/role/UserRoleService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/src/main/java/com/softuni/mobilele/services/role/UserRoleService.java b/MobiLeLeLe/src/main/java/com/softuni/mobilele/services/role/UserRoleService.java
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/src/main/java/com/softuni/mobilele/services/role/UserRoleService.java	(date 1674504342000)
+@@ -0,0 +1,10 @@
++package com.softuni.mobilele.services.role;
++
++import com.softuni.mobilele.domain.dtoS.veiw.UserRoleViewDto;
++import com.softuni.mobilele.services.init.DataBaseInitServiceService;
++
++import java.util.List;
++
++public interface UserRoleService extends DataBaseInitServiceService {
++    List<UserRoleViewDto> getAll();
++}
+Index: MobiLeLeLe/src/main/java/com/softuni/mobilele/services/role/UserRoleServiceImpl.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/src/main/java/com/softuni/mobilele/services/role/UserRoleServiceImpl.java b/MobiLeLeLe/src/main/java/com/softuni/mobilele/services/role/UserRoleServiceImpl.java
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/src/main/java/com/softuni/mobilele/services/role/UserRoleServiceImpl.java	(date 1674504342000)
+@@ -0,0 +1,51 @@
++package com.softuni.mobilele.services.role;
++
++import com.softuni.mobilele.domain.dtoS.veiw.UserRoleViewDto;
++import com.softuni.mobilele.domain.enitities.UserRole;
++import com.softuni.mobilele.domain.enums.Role;
++import com.softuni.mobilele.repositories.RoleRepository;
++import org.modelmapper.ModelMapper;
++import org.springframework.beans.factory.annotation.Autowired;
++import org.springframework.stereotype.Service;
++
++import java.util.ArrayList;
++import java.util.List;
++import java.util.stream.Collectors;
++
++@Service
++public class UserRoleServiceImpl implements UserRoleService {
++    private final RoleRepository roleRepository;
++    private final ModelMapper modelMapper;
++
++    @Autowired
++    public UserRoleServiceImpl(RoleRepository roleRepository, ModelMapper modelMapper) {
++        this.roleRepository = roleRepository;
++        this.modelMapper = modelMapper;
++        this.dbInit();
++    }
++
++
++    @Override
++    public void dbInit() {
++        if (!isDbInit()) {
++            List<UserRole> roles = new ArrayList<>();
++
++            roles.add(new UserRole().setRole(Role.USER));
++            roles.add(new UserRole().setRole(Role.ADMIN));
++
++            this.roleRepository.saveAllAndFlush(roles);
++        }
++    }
++
++    @Override
++    public boolean isDbInit() {
++        return this.roleRepository.count() > 0;
++    }
++
++    public List<UserRoleViewDto> getAll() {
++        return this.roleRepository.findAll()
++                .stream()
++                .map(r -> this.modelMapper.map(r, UserRoleViewDto.class))
++                .collect(Collectors.toList());
++    }
++}
+\ No newline at end of file
+Index: MobiLeLeLe/src/main/java/com/softuni/mobilele/services/user/UserService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/src/main/java/com/softuni/mobilele/services/user/UserService.java b/MobiLeLeLe/src/main/java/com/softuni/mobilele/services/user/UserService.java
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/src/main/java/com/softuni/mobilele/services/user/UserService.java	(date 1674504342000)
+@@ -0,0 +1,5 @@
++package com.softuni.mobilele.services.user;
++
++public interface UserService {
++
++}
+Index: MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enitities/Offer.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enitities/Offer.java b/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enitities/Offer.java
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enitities/Offer.java	(date 1674504342000)
+@@ -0,0 +1,143 @@
++package com.softuni.mobilele.domain.enitities;
++
++import com.softuni.mobilele.domain.enums.Engine;
++import com.softuni.mobilele.domain.enums.Transmission;
++import jakarta.persistence.*;
++
++import java.util.Date;
++
++@Entity
++@Table(name = "offers")
++public class Offer extends BaseEntity {
++    @Column
++    private String description;
++
++    @Enumerated(EnumType.STRING)
++    private Engine engine;
++
++    @Column
++    private String imageUrl;
++
++    @Column
++    private String mileage;
++
++    @Column
++    private String price;
++
++    @Enumerated(EnumType.STRING)
++    private Transmission transmission;
++
++    @Column
++    private String year;
++
++    @Column
++    private Date created;
++
++    @Column
++    private Date modified;
++
++    @ManyToOne
++    private Model model;
++
++    @ManyToOne
++    private User seller;
++
++    public String getDescription() {
++        return description;
++    }
++
++    public Offer setDescription(String description) {
++        this.description = description;
++        return this;
++    }
++
++    public Engine getEngine() {
++        return engine;
++    }
++
++    public Offer setEngine(Engine engine) {
++        this.engine = engine;
++        return this;
++    }
++
++    public String getImageUrl() {
++        return imageUrl;
++    }
++
++    public Offer setImageUrl(String imageUrl) {
++        this.imageUrl = imageUrl;
++        return this;
++    }
++
++    public String getMileage() {
++        return mileage;
++    }
++
++    public Offer setMileage(String mileage) {
++        this.mileage = mileage;
++        return this;
++    }
++
++    public String getPrice() {
++        return price;
++    }
++
++    public Offer setPrice(String price) {
++        this.price = price;
++        return this;
++    }
++
++    public Transmission getTransmission() {
++        return transmission;
++    }
++
++    public Offer setTransmission(Transmission transmission) {
++        this.transmission = transmission;
++        return this;
++    }
++
++    public String getYear() {
++        return year;
++    }
++
++    public Offer setYear(String year) {
++        this.year = year;
++        return this;
++    }
++
++    public Date getCreated() {
++        return created;
++    }
++
++    public Offer setCreated(Date created) {
++        this.created = created;
++        return this;
++    }
++
++    public Date getModified() {
++        return modified;
++    }
++
++    public Offer setModified(Date modified) {
++        this.modified = modified;
++        return this;
++    }
++
++    public Model getModel() {
++        return model;
++    }
++
++    public Offer setModel(Model model) {
++        this.model = model;
++        return this;
++    }
++
++    public User getSeller() {
++        return seller;
++    }
++
++    public Offer setSeller(User seller) {
++        this.seller = seller;
++        return this;
++    }
++}
+Index: MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enitities/User.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enitities/User.java b/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enitities/User.java
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enitities/User.java	(date 1674504342000)
+@@ -0,0 +1,122 @@
++package com.softuni.mobilele.domain.enitities;
++
++import jakarta.persistence.Column;
++import jakarta.persistence.Entity;
++import jakarta.persistence.OneToMany;
++import jakarta.persistence.Table;
++
++import java.util.Date;
++import java.util.List;
++
++@Entity
++@Table(name = "users")
++public class User extends BaseEntity {
++
++    @Column
++    private String username; // –  username of the user.
++
++    @Column
++    private String password; //– password of the user.
++
++    @Column
++    private String firstName; //–  first name of the user.
++
++    @Column
++    private String lastName; //–  last name of the user.
++
++    @Column
++    private Boolean isActive; //– true OR false.
++
++    @OneToMany
++    private List<UserRole> role; //–  user's role (User or Admin).
++
++    @Column
++    private String imageUrl;//– a url of user's picture.
++
++    @Column
++    private Date created; // a date and time.
++
++    @Column
++    private Date modified;//– a date and time.
++
++    public String getUsername() {
++        return username;
++    }
++
++    public User setUsername(String username) {
++        this.username = username;
++        return this;
++    }
++
++    public String getPassword() {
++        return password;
++    }
++
++    public User setPassword(String password) {
++        this.password = password;
++        return this;
++    }
++
++    public String getFirstName() {
++        return firstName;
++    }
++
++    public User setFirstName(String firstName) {
++        this.firstName = firstName;
++        return this;
++    }
++
++    public String getLastName() {
++        return lastName;
++    }
++
++    public User setLastName(String lastName) {
++        this.lastName = lastName;
++        return this;
++    }
++
++    public Boolean getActive() {
++        return isActive;
++    }
++
++    public User setActive(Boolean active) {
++        isActive = active;
++        return this;
++    }
++
++    public List<UserRole> getRole() {
++        return role;
++    }
++
++    public User setRole(List<UserRole> role) {
++        this.role = role;
++        return this;
++    }
++
++    public String getImageUrl() {
++        return imageUrl;
++    }
++
++    public User setImageUrl(String imageUrl) {
++        this.imageUrl = imageUrl;
++        return this;
++    }
++
++    public Date getCreated() {
++        return created;
++    }
++
++    public User setCreated(Date created) {
++        this.created = created;
++        return this;
++    }
++
++    public Date getModified() {
++        return modified;
++    }
++
++    public User setModified(Date modified) {
++        this.modified = modified;
++        return this;
++    }
++}
+Index: MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enitities/UserRole.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enitities/UserRole.java b/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enitities/UserRole.java
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enitities/UserRole.java	(date 1674504342000)
+@@ -0,0 +1,24 @@
++package com.softuni.mobilele.domain.enitities;
++
++import com.softuni.mobilele.domain.enums.Role;
++import jakarta.persistence.Entity;
++import jakarta.persistence.EnumType;
++import jakarta.persistence.Enumerated;
++import jakarta.persistence.Table;
++
++@Entity
++@Table(name = "roles")
++public class UserRole extends BaseEntity {
++
++    @Enumerated(EnumType.STRING)
++    private Role role;
++
++    public Role getRole() {
++        return role;
++    }
++
++    public UserRole setRole(Role role) {
++        this.role = role;
++        return this;
++    }
++}
+Index: MobiLeLeLe/src/main/java/com/softuni/mobilele/services/init/DataBaseInitServiceService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/src/main/java/com/softuni/mobilele/services/init/DataBaseInitServiceService.java b/MobiLeLeLe/src/main/java/com/softuni/mobilele/services/init/DataBaseInitServiceService.java
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/src/main/java/com/softuni/mobilele/services/init/DataBaseInitServiceService.java	(date 1674504342000)
+@@ -0,0 +1,7 @@
++package com.softuni.mobilele.services.init;
++
++public interface DataBaseInitServiceService {
++    void dbInit();
++
++    boolean isDbInit();
++}
+\ No newline at end of file
+Index: MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enums/Transmission.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enums/Transmission.java b/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enums/Transmission.java
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enums/Transmission.java	(date 1674504342000)
+@@ -0,0 +1,6 @@
++package com.softuni.mobilele.domain.enums;
++
++public enum Transmission {
++    MANUAL,
++    AUTOMATIC
++}
+Index: MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enitities/BaseEntity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enitities/BaseEntity.java b/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enitities/BaseEntity.java
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enitities/BaseEntity.java	(date 1674504342000)
+@@ -0,0 +1,28 @@
++package com.softuni.mobilele.domain.enitities;
++
++import jakarta.persistence.GeneratedValue;
++import jakarta.persistence.Id;
++import jakarta.persistence.MappedSuperclass;
++import org.hibernate.annotations.GenericGenerator;
++
++@MappedSuperclass
++public abstract class BaseEntity {
++
++    @Id
++    @GeneratedValue(generator = "uuid-string")
++    @GenericGenerator(name = "uuid-string",
++            strategy = "org.hibernate.id.UUIDGenerator")
++    private String id;
++
++    public BaseEntity() {
++    }
++
++    public String getId() {
++        return id;
++    }
++
++    public BaseEntity setId(String id) {
++        this.id = id;
++        return this;
++    }
++}
+Index: MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enitities/Brand.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enitities/Brand.java b/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enitities/Brand.java
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enitities/Brand.java	(date 1674504342000)
+@@ -0,0 +1,49 @@
++package com.softuni.mobilele.domain.enitities;
++
++import jakarta.persistence.Column;
++import jakarta.persistence.Entity;
++import jakarta.persistence.Table;
++
++import java.util.Date;
++
++@Entity
++@Table(name = "brands")
++public class Brand extends BaseEntity {
++
++    @Column(unique = true, nullable = false)
++    private String name;
++
++    @Column
++    private Date created;
++
++    @Column
++    private Date modified;
++
++    public String getName() {
++        return name;
++    }
++
++    public Brand setName(String name) {
++        this.name = name;
++        return this;
++    }
++
++    public Date getCreated() {
++        return created;
++    }
++
++    public Brand setCreated(Date created) {
++        this.created = created;
++        return this;
++    }
++
++    public Date getModified() {
++        return modified;
++    }
++
++    public Brand setModified(Date modified) {
++        this.modified = modified;
++        return this;
++    }
++}
++
+Index: MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enitities/Model.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enitities/Model.java b/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enitities/Model.java
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enitities/Model.java	(date 1674504342000)
+@@ -0,0 +1,107 @@
++package com.softuni.mobilele.domain.enitities;
++
++import com.softuni.mobilele.domain.enums.ModelCategory;
++import jakarta.persistence.*;
++
++import java.util.Date;
++
++@Entity
++@Table(name = "models")
++public class Model extends BaseEntity {
++
++    @Column
++    private String name;
++
++    @Enumerated(EnumType.STRING)
++    private ModelCategory category;
++
++    @Column
++    private String imageUrl;
++
++    @Column
++    private Integer startYear;
++
++    @Column
++    private Integer endYear;
++
++    @Column
++    private Date created;
++
++    @Column
++    private Date modified;
++
++    @ManyToOne
++    private Brand brand;
++
++    public String getName() {
++        return name;
++    }
++
++    public Model setName(String name) {
++        this.name = name;
++        return this;
++    }
++
++    public ModelCategory getCategory() {
++        return category;
++    }
++
++    public Model setCategory(ModelCategory category) {
++        this.category = category;
++        return this;
++    }
++
++    public String getImageUrl() {
++        return imageUrl;
++    }
++
++    public Model setImageUrl(String imageUrl) {
++        this.imageUrl = imageUrl;
++        return this;
++    }
++
++    public Integer getStartYear() {
++        return startYear;
++    }
++
++    public Model setStartYear(Integer startYear) {
++        this.startYear = startYear;
++        return this;
++    }
++
++    public Integer getEndYear() {
++        return endYear;
++    }
++
++    public Model setEndYear(Integer endYear) {
++        this.endYear = endYear;
++        return this;
++    }
++
++    public Date getCreated() {
++        return created;
++    }
++
++    public Model setCreated(Date created) {
++        this.created = created;
++        return this;
++    }
++
++    public Date getModified() {
++        return modified;
++    }
++
++    public Model setModified(Date modified) {
++        this.modified = modified;
++        return this;
++    }
++
++    public Brand getBrand() {
++        return brand;
++    }
++
++    public Model setBrand(Brand brand) {
++        this.brand = brand;
++        return this;
++    }
++}
+Index: MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enums/Engine.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enums/Engine.java b/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enums/Engine.java
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enums/Engine.java	(date 1674504342000)
+@@ -0,0 +1,8 @@
++package com.softuni.mobilele.domain.enums;
++
++public enum Engine {
++    GASOLINE,
++    DIESEL,
++    ELECTRIC,
++    HYBRID
++}
+Index: MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enums/ModelCategory.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enums/ModelCategory.java b/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enums/ModelCategory.java
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enums/ModelCategory.java	(date 1674504342000)
+@@ -0,0 +1,8 @@
++package com.softuni.mobilele.domain.enums;
++
++public enum ModelCategory {
++    CAR,
++    BUSS,
++    TRUCK,
++    MOTORCYCLE
++}
+Index: MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enums/Role.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enums/Role.java b/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enums/Role.java
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/src/main/java/com/softuni/mobilele/domain/enums/Role.java	(date 1674504342000)
+@@ -0,0 +1,6 @@
++package com.softuni.mobilele.domain.enums;
++
++public enum Role {
++    USER,
++    ADMIN
++}
+Index: MobiLeLeLe/src/main/java/com/softuni/mobilele/repositories/RoleRepository.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/src/main/java/com/softuni/mobilele/repositories/RoleRepository.java b/MobiLeLeLe/src/main/java/com/softuni/mobilele/repositories/RoleRepository.java
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/src/main/java/com/softuni/mobilele/repositories/RoleRepository.java	(date 1674504342000)
+@@ -0,0 +1,9 @@
++package com.softuni.mobilele.repositories;
++
++import com.softuni.mobilele.domain.enitities.UserRole;
++import org.springframework.data.jpa.repository.JpaRepository;
++import org.springframework.stereotype.Repository;
++
++@Repository
++public interface RoleRepository extends JpaRepository<UserRole, String> {
++}
+Index: MobiLeLeLe/src/main/java/com/softuni/mobilele/repositories/UserRepository.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/src/main/java/com/softuni/mobilele/repositories/UserRepository.java b/MobiLeLeLe/src/main/java/com/softuni/mobilele/repositories/UserRepository.java
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/src/main/java/com/softuni/mobilele/repositories/UserRepository.java	(date 1674504342000)
+@@ -0,0 +1,9 @@
++package com.softuni.mobilele.repositories;
++
++import com.softuni.mobilele.domain.enitities.User;
++import org.springframework.data.jpa.repository.JpaRepository;
++import org.springframework.stereotype.Repository;
++
++@Repository
++public interface UserRepository extends JpaRepository<User, String> {
++}
+Index: MobiLeLeLe/src/main/java/com/softuni/mobilele/repositories/BrandRepository.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/src/main/java/com/softuni/mobilele/repositories/BrandRepository.java b/MobiLeLeLe/src/main/java/com/softuni/mobilele/repositories/BrandRepository.java
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/src/main/java/com/softuni/mobilele/repositories/BrandRepository.java	(date 1674504342000)
+@@ -0,0 +1,10 @@
++package com.softuni.mobilele.repositories;
++
++import com.softuni.mobilele.domain.enitities.Brand;
++import org.springframework.data.jpa.repository.JpaRepository;
++import org.springframework.stereotype.Repository;
++
++@Repository
++public interface BrandRepository extends JpaRepository<Brand, String> {
++}
++
+Index: MobiLeLeLe/src/main/java/com/softuni/mobilele/repositories/ModelRepository.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/src/main/java/com/softuni/mobilele/repositories/ModelRepository.java b/MobiLeLeLe/src/main/java/com/softuni/mobilele/repositories/ModelRepository.java
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/src/main/java/com/softuni/mobilele/repositories/ModelRepository.java	(date 1674504342000)
+@@ -0,0 +1,9 @@
++package com.softuni.mobilele.repositories;
++
++import com.softuni.mobilele.domain.enitities.Model;
++import org.springframework.data.jpa.repository.JpaRepository;
++import org.springframework.stereotype.Repository;
++
++@Repository
++public interface ModelRepository extends JpaRepository<Model, String> {
++}
+Index: MobiLeLeLe/src/main/java/com/softuni/mobilele/repositories/OfferRepository.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/src/main/java/com/softuni/mobilele/repositories/OfferRepository.java b/MobiLeLeLe/src/main/java/com/softuni/mobilele/repositories/OfferRepository.java
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/src/main/java/com/softuni/mobilele/repositories/OfferRepository.java	(date 1674504342000)
+@@ -0,0 +1,9 @@
++package com.softuni.mobilele.repositories;
++
++import com.softuni.mobilele.domain.enitities.Offer;
++import org.springframework.data.jpa.repository.JpaRepository;
++import org.springframework.stereotype.Repository;
++
++@Repository
++public interface OfferRepository extends JpaRepository<Offer, String> {
++}
+Index: MobiLeLeLe/mvnw.cmd
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/mvnw.cmd b/MobiLeLeLe/mvnw.cmd
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/mvnw.cmd	(date 1674504342000)
+@@ -0,0 +1,188 @@
++@REM ----------------------------------------------------------------------------
++@REM Licensed to the Apache Software Foundation (ASF) under one
++@REM or more contributor license agreements.  See the NOTICE file
++@REM distributed with this work for additional information
++@REM regarding copyright ownership.  The ASF licenses this file
++@REM to you under the Apache License, Version 2.0 (the
++@REM "License"); you may not use this file except in compliance
++@REM with the License.  You may obtain a copy of the License at
++@REM
++@REM    https://www.apache.org/licenses/LICENSE-2.0
++@REM
++@REM Unless required by applicable law or agreed to in writing,
++@REM software distributed under the License is distributed on an
++@REM "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
++@REM KIND, either express or implied.  See the License for the
++@REM specific language governing permissions and limitations
++@REM under the License.
++@REM ----------------------------------------------------------------------------
++
++@REM ----------------------------------------------------------------------------
++@REM Maven Start Up Batch script
++@REM
++@REM Required ENV vars:
++@REM JAVA_HOME - location of a JDK home dir
++@REM
++@REM Optional ENV vars
++@REM M2_HOME - location of maven2's installed home dir
++@REM MAVEN_BATCH_ECHO - set to 'on' to enable the echoing of the batch commands
++@REM MAVEN_BATCH_PAUSE - set to 'on' to wait for a keystroke before ending
++@REM MAVEN_OPTS - parameters passed to the Java VM when running Maven
++@REM     e.g. to debug Maven itself, use
++@REM set MAVEN_OPTS=-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000
++@REM MAVEN_SKIP_RC - flag to disable loading of mavenrc files
++@REM ----------------------------------------------------------------------------
++
++@REM Begin all REM lines with '@' in case MAVEN_BATCH_ECHO is 'on'
++@echo off
++@REM set title of command window
++title %0
++@REM enable echoing by setting MAVEN_BATCH_ECHO to 'on'
++@if "%MAVEN_BATCH_ECHO%" == "on"  echo %MAVEN_BATCH_ECHO%
++
++@REM set %HOME% to equivalent of $HOME
++if "%HOME%" == "" (set "HOME=%HOMEDRIVE%%HOMEPATH%")
++
++@REM Execute a user defined script before this one
++if not "%MAVEN_SKIP_RC%" == "" goto skipRcPre
++@REM check for pre script, once with legacy .bat ending and once with .cmd ending
++if exist "%USERPROFILE%\mavenrc_pre.bat" call "%USERPROFILE%\mavenrc_pre.bat" %*
++if exist "%USERPROFILE%\mavenrc_pre.cmd" call "%USERPROFILE%\mavenrc_pre.cmd" %*
++:skipRcPre
++
++@setlocal
++
++set ERROR_CODE=0
++
++@REM To isolate internal variables from possible post scripts, we use another setlocal
++@setlocal
++
++@REM ==== START VALIDATION ====
++if not "%JAVA_HOME%" == "" goto OkJHome
++
++echo.
++echo Error: JAVA_HOME not found in your environment. >&2
++echo Please set the JAVA_HOME variable in your environment to match the >&2
++echo location of your Java installation. >&2
++echo.
++goto error
++
++:OkJHome
++if exist "%JAVA_HOME%\bin\java.exe" goto init
++
++echo.
++echo Error: JAVA_HOME is set to an invalid directory. >&2
++echo JAVA_HOME = "%JAVA_HOME%" >&2
++echo Please set the JAVA_HOME variable in your environment to match the >&2
++echo location of your Java installation. >&2
++echo.
++goto error
++
++@REM ==== END VALIDATION ====
++
++:init
++
++@REM Find the project base dir, i.e. the directory that contains the folder ".mvn".
++@REM Fallback to current working directory if not found.
++
++set MAVEN_PROJECTBASEDIR=%MAVEN_BASEDIR%
++IF NOT "%MAVEN_PROJECTBASEDIR%"=="" goto endDetectBaseDir
++
++set EXEC_DIR=%CD%
++set WDIR=%EXEC_DIR%
++:findBaseDir
++IF EXIST "%WDIR%"\.mvn goto baseDirFound
++cd ..
++IF "%WDIR%"=="%CD%" goto baseDirNotFound
++set WDIR=%CD%
++goto findBaseDir
++
++:baseDirFound
++set MAVEN_PROJECTBASEDIR=%WDIR%
++cd "%EXEC_DIR%"
++goto endDetectBaseDir
++
++:baseDirNotFound
++set MAVEN_PROJECTBASEDIR=%EXEC_DIR%
++cd "%EXEC_DIR%"
++
++:endDetectBaseDir
++
++IF NOT EXIST "%MAVEN_PROJECTBASEDIR%\.mvn\jvm.config" goto endReadAdditionalConfig
++
++@setlocal EnableExtensions EnableDelayedExpansion
++for /F "usebackq delims=" %%a in ("%MAVEN_PROJECTBASEDIR%\.mvn\jvm.config") do set JVM_CONFIG_MAVEN_PROPS=!JVM_CONFIG_MAVEN_PROPS! %%a
++@endlocal & set JVM_CONFIG_MAVEN_PROPS=%JVM_CONFIG_MAVEN_PROPS%
++
++:endReadAdditionalConfig
++
++SET MAVEN_JAVA_EXE="%JAVA_HOME%\bin\java.exe"
++set WRAPPER_JAR="%MAVEN_PROJECTBASEDIR%\.mvn\wrapper\maven-wrapper.jar"
++set WRAPPER_LAUNCHER=org.apache.maven.wrapper.MavenWrapperMain
++
++set DOWNLOAD_URL="https://repo.maven.apache.org/maven2/org/apache/maven/wrapper/maven-wrapper/3.1.0/maven-wrapper-3.1.0.jar"
++
++FOR /F "usebackq tokens=1,2 delims==" %%A IN ("%MAVEN_PROJECTBASEDIR%\.mvn\wrapper\maven-wrapper.properties") DO (
++    IF "%%A"=="wrapperUrl" SET DOWNLOAD_URL=%%B
++)
++
++@REM Extension to allow automatically downloading the maven-wrapper.jar from Maven-central
++@REM This allows using the maven wrapper in projects that prohibit checking in binary data.
++if exist %WRAPPER_JAR% (
++    if "%MVNW_VERBOSE%" == "true" (
++        echo Found %WRAPPER_JAR%
++    )
++) else (
++    if not "%MVNW_REPOURL%" == "" (
++        SET DOWNLOAD_URL="%MVNW_REPOURL%/org/apache/maven/wrapper/maven-wrapper/3.1.0/maven-wrapper-3.1.0.jar"
++    )
++    if "%MVNW_VERBOSE%" == "true" (
++        echo Couldn't find %WRAPPER_JAR%, downloading it ...
++        echo Downloading from: %DOWNLOAD_URL%
++    )
++
++    powershell -Command "&{"^
++		"$webclient = new-object System.Net.WebClient;"^
++		"if (-not ([string]::IsNullOrEmpty('%MVNW_USERNAME%') -and [string]::IsNullOrEmpty('%MVNW_PASSWORD%'))) {"^
++		"$webclient.Credentials = new-object System.Net.NetworkCredential('%MVNW_USERNAME%', '%MVNW_PASSWORD%');"^
++		"}"^
++		"[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; $webclient.DownloadFile('%DOWNLOAD_URL%', '%WRAPPER_JAR%')"^
++		"}"
++    if "%MVNW_VERBOSE%" == "true" (
++        echo Finished downloading %WRAPPER_JAR%
++    )
++)
++@REM End of extension
++
++@REM Provide a "standardized" way to retrieve the CLI args that will
++@REM work with both Windows and non-Windows executions.
++set MAVEN_CMD_LINE_ARGS=%*
++
++%MAVEN_JAVA_EXE% ^
++  %JVM_CONFIG_MAVEN_PROPS% ^
++  %MAVEN_OPTS% ^
++  %MAVEN_DEBUG_OPTS% ^
++  -classpath %WRAPPER_JAR% ^
++  "-Dmaven.multiModuleProjectDirectory=%MAVEN_PROJECTBASEDIR%" ^
++  %WRAPPER_LAUNCHER% %MAVEN_CONFIG% %*
++if ERRORLEVEL 1 goto error
++goto end
++
++:error
++set ERROR_CODE=1
++
++:end
++@endlocal & set ERROR_CODE=%ERROR_CODE%
++
++if not "%MAVEN_SKIP_RC%"=="" goto skipRcPost
++@REM check for post script, once with legacy .bat ending and once with .cmd ending
++if exist "%USERPROFILE%\mavenrc_post.bat" call "%USERPROFILE%\mavenrc_post.bat"
++if exist "%USERPROFILE%\mavenrc_post.cmd" call "%USERPROFILE%\mavenrc_post.cmd"
++:skipRcPost
++
++@REM pause the script if MAVEN_BATCH_PAUSE is set to 'on'
++if "%MAVEN_BATCH_PAUSE%"=="on" pause
++
++if "%MAVEN_TERMINATE_CMD%"=="on" exit %ERROR_CODE%
++
++cmd /C exit /B %ERROR_CODE%
+Index: MobiLeLeLe/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/pom.xml b/MobiLeLeLe/pom.xml
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/pom.xml	(date 1674504342000)
+@@ -0,0 +1,81 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
++    <modelVersion>4.0.0</modelVersion>
++    <parent>
++        <groupId>org.springframework.boot</groupId>
++        <artifactId>spring-boot-starter-parent</artifactId>
++        <version>3.0.1</version>
++        <relativePath/> <!-- lookup parent from repository -->
++    </parent>
++    <groupId>com.softuni</groupId>
++    <artifactId>mobilele</artifactId>
++    <version>0.0.1-SNAPSHOT</version>
++    <name>mobilele</name>
++    <description>mobilele</description>
++    <properties>
++        <java.version>17</java.version>
++    </properties>
++    <dependencies>
++        <dependency>
++            <groupId>org.springframework.boot</groupId>
++            <artifactId>spring-boot-starter</artifactId>
++        </dependency>
++
++        <dependency>
++            <groupId>mysql</groupId>
++            <artifactId>mysql-connector-java</artifactId>
++            <scope>runtime</scope>
++        </dependency>
++
++        <dependency>
++            <groupId>org.modelmapper</groupId>
++            <artifactId>modelmapper</artifactId>
++            <version>3.1.1</version>
++        </dependency>
++
++        <dependency>
++            <groupId>org.springframework.boot</groupId>
++            <artifactId>spring-boot-devtools</artifactId>
++            <scope>runtime</scope>
++            <optional>true</optional>
++        </dependency>
++
++        <dependency>
++            <groupId>org.springframework.boot</groupId>
++            <artifactId>spring-boot-starter-data-jpa</artifactId>
++        </dependency>
++
++        <dependency>
++            <groupId>org.springframework.boot</groupId>
++            <artifactId>spring-boot-starter-thymeleaf</artifactId>
++        </dependency>
++
++        <dependency>
++            <groupId>org.springframework.boot</groupId>
++            <artifactId>spring-boot-starter-validation</artifactId>
++        </dependency>
++
++        <dependency>
++            <groupId>org.springframework.boot</groupId>
++            <artifactId>spring-boot-starter-web</artifactId>
++        </dependency>
++
++        <dependency>
++            <groupId>org.springframework.boot</groupId>
++            <artifactId>spring-boot-starter-test</artifactId>
++            <scope>test</scope>
++        </dependency>
++
++    </dependencies>
++
++    <build>
++        <plugins>
++            <plugin>
++                <groupId>org.springframework.boot</groupId>
++                <artifactId>spring-boot-maven-plugin</artifactId>
++            </plugin>
++        </plugins>
++    </build>
++
++</project>
+Index: MobiLeLeLe/.mvn/wrapper/maven-wrapper.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/MobiLeLeLe/.mvn/wrapper/maven-wrapper.properties b/MobiLeLeLe/.mvn/wrapper/maven-wrapper.properties
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/.mvn/wrapper/maven-wrapper.properties	(date 1674504342000)
+@@ -0,0 +1,2 @@
++distributionUrl=https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.8.6/apache-maven-3.8.6-bin.zip
++wrapperUrl=https://repo.maven.apache.org/maven2/org/apache/maven/wrapper/maven-wrapper/3.1.0/maven-wrapper-3.1.0.jar
+Index: MobiLeLeLe/mvnw
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/mvnw b/MobiLeLeLe/mvnw
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/mvnw	(date 1674504342000)
+@@ -0,0 +1,316 @@
++#!/bin/sh
++# ----------------------------------------------------------------------------
++# Licensed to the Apache Software Foundation (ASF) under one
++# or more contributor license agreements.  See the NOTICE file
++# distributed with this work for additional information
++# regarding copyright ownership.  The ASF licenses this file
++# to you under the Apache License, Version 2.0 (the
++# "License"); you may not use this file except in compliance
++# with the License.  You may obtain a copy of the License at
++#
++#    https://www.apache.org/licenses/LICENSE-2.0
++#
++# Unless required by applicable law or agreed to in writing,
++# software distributed under the License is distributed on an
++# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
++# KIND, either express or implied.  See the License for the
++# specific language governing permissions and limitations
++# under the License.
++# ----------------------------------------------------------------------------
++
++# ----------------------------------------------------------------------------
++# Maven Start Up Batch script
++#
++# Required ENV vars:
++# ------------------
++#   JAVA_HOME - location of a JDK home dir
++#
++# Optional ENV vars
++# -----------------
++#   M2_HOME - location of maven2's installed home dir
++#   MAVEN_OPTS - parameters passed to the Java VM when running Maven
++#     e.g. to debug Maven itself, use
++#       set MAVEN_OPTS=-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000
++#   MAVEN_SKIP_RC - flag to disable loading of mavenrc files
++# ----------------------------------------------------------------------------
++
++if [ -z "$MAVEN_SKIP_RC" ] ; then
++
++  if [ -f /usr/local/etc/mavenrc ] ; then
++    . /usr/local/etc/mavenrc
++  fi
++
++  if [ -f /etc/mavenrc ] ; then
++    . /etc/mavenrc
++  fi
++
++  if [ -f "$HOME/.mavenrc" ] ; then
++    . "$HOME/.mavenrc"
++  fi
++
++fi
++
++# OS specific support.  $var _must_ be set to either true or false.
++cygwin=false;
++darwin=false;
++mingw=false
++case "`uname`" in
++  CYGWIN*) cygwin=true ;;
++  MINGW*) mingw=true;;
++  Darwin*) darwin=true
++    # Use /usr/libexec/java_home if available, otherwise fall back to /Library/Java/Home
++    # See https://developer.apple.com/library/mac/qa/qa1170/_index.html
++    if [ -z "$JAVA_HOME" ]; then
++      if [ -x "/usr/libexec/java_home" ]; then
++        export JAVA_HOME="`/usr/libexec/java_home`"
++      else
++        export JAVA_HOME="/Library/Java/Home"
++      fi
++    fi
++    ;;
++esac
++
++if [ -z "$JAVA_HOME" ] ; then
++  if [ -r /etc/gentoo-release ] ; then
++    JAVA_HOME=`java-config --jre-home`
++  fi
++fi
++
++if [ -z "$M2_HOME" ] ; then
++  ## resolve links - $0 may be a link to maven's home
++  PRG="$0"
++
++  # need this for relative symlinks
++  while [ -h "$PRG" ] ; do
++    ls=`ls -ld "$PRG"`
++    link=`expr "$ls" : '.*-> \(.*\)$'`
++    if expr "$link" : '/.*' > /dev/null; then
++      PRG="$link"
++    else
++      PRG="`dirname "$PRG"`/$link"
++    fi
++  done
++
++  saveddir=`pwd`
++
++  M2_HOME=`dirname "$PRG"`/..
++
++  # make it fully qualified
++  M2_HOME=`cd "$M2_HOME" && pwd`
++
++  cd "$saveddir"
++  # echo Using m2 at $M2_HOME
++fi
++
++# For Cygwin, ensure paths are in UNIX format before anything is touched
++if $cygwin ; then
++  [ -n "$M2_HOME" ] &&
++    M2_HOME=`cygpath --unix "$M2_HOME"`
++  [ -n "$JAVA_HOME" ] &&
++    JAVA_HOME=`cygpath --unix "$JAVA_HOME"`
++  [ -n "$CLASSPATH" ] &&
++    CLASSPATH=`cygpath --path --unix "$CLASSPATH"`
++fi
++
++# For Mingw, ensure paths are in UNIX format before anything is touched
++if $mingw ; then
++  [ -n "$M2_HOME" ] &&
++    M2_HOME="`(cd "$M2_HOME"; pwd)`"
++  [ -n "$JAVA_HOME" ] &&
++    JAVA_HOME="`(cd "$JAVA_HOME"; pwd)`"
++fi
++
++if [ -z "$JAVA_HOME" ]; then
++  javaExecutable="`which javac`"
++  if [ -n "$javaExecutable" ] && ! [ "`expr \"$javaExecutable\" : '\([^ ]*\)'`" = "no" ]; then
++    # readlink(1) is not available as standard on Solaris 10.
++    readLink=`which readlink`
++    if [ ! `expr "$readLink" : '\([^ ]*\)'` = "no" ]; then
++      if $darwin ; then
++        javaHome="`dirname \"$javaExecutable\"`"
++        javaExecutable="`cd \"$javaHome\" && pwd -P`/javac"
++      else
++        javaExecutable="`readlink -f \"$javaExecutable\"`"
++      fi
++      javaHome="`dirname \"$javaExecutable\"`"
++      javaHome=`expr "$javaHome" : '\(.*\)/bin'`
++      JAVA_HOME="$javaHome"
++      export JAVA_HOME
++    fi
++  fi
++fi
++
++if [ -z "$JAVACMD" ] ; then
++  if [ -n "$JAVA_HOME"  ] ; then
++    if [ -x "$JAVA_HOME/jre/sh/java" ] ; then
++      # IBM's JDK on AIX uses strange locations for the executables
++      JAVACMD="$JAVA_HOME/jre/sh/java"
++    else
++      JAVACMD="$JAVA_HOME/bin/java"
++    fi
++  else
++    JAVACMD="`\\unset -f command; \\command -v java`"
++  fi
++fi
++
++if [ ! -x "$JAVACMD" ] ; then
++  echo "Error: JAVA_HOME is not defined correctly." >&2
++  echo "  We cannot execute $JAVACMD" >&2
++  exit 1
++fi
++
++if [ -z "$JAVA_HOME" ] ; then
++  echo "Warning: JAVA_HOME environment variable is not set."
++fi
++
++CLASSWORLDS_LAUNCHER=org.codehaus.plexus.classworlds.launcher.Launcher
++
++# traverses directory structure from process work directory to filesystem root
++# first directory with .mvn subdirectory is considered project base directory
++find_maven_basedir() {
++
++  if [ -z "$1" ]
++  then
++    echo "Path not specified to find_maven_basedir"
++    return 1
++  fi
++
++  basedir="$1"
++  wdir="$1"
++  while [ "$wdir" != '/' ] ; do
++    if [ -d "$wdir"/.mvn ] ; then
++      basedir=$wdir
++      break
++    fi
++    # workaround for JBEAP-8937 (on Solaris 10/Sparc)
++    if [ -d "${wdir}" ]; then
++      wdir=`cd "$wdir/.."; pwd`
++    fi
++    # end of workaround
++  done
++  echo "${basedir}"
++}
++
++# concatenates all lines of a file
++concat_lines() {
++  if [ -f "$1" ]; then
++    echo "$(tr -s '\n' ' ' < "$1")"
++  fi
++}
++
++BASE_DIR=`find_maven_basedir "$(pwd)"`
++if [ -z "$BASE_DIR" ]; then
++  exit 1;
++fi
++
++##########################################################################################
++# Extension to allow automatically downloading the maven-wrapper.jar from Maven-central
++# This allows using the maven wrapper in projects that prohibit checking in binary data.
++##########################################################################################
++if [ -r "$BASE_DIR/.mvn/wrapper/maven-wrapper.jar" ]; then
++    if [ "$MVNW_VERBOSE" = true ]; then
++      echo "Found .mvn/wrapper/maven-wrapper.jar"
++    fi
++else
++    if [ "$MVNW_VERBOSE" = true ]; then
++      echo "Couldn't find .mvn/wrapper/maven-wrapper.jar, downloading it ..."
++    fi
++    if [ -n "$MVNW_REPOURL" ]; then
++      jarUrl="$MVNW_REPOURL/org/apache/maven/wrapper/maven-wrapper/3.1.0/maven-wrapper-3.1.0.jar"
++    else
++      jarUrl="https://repo.maven.apache.org/maven2/org/apache/maven/wrapper/maven-wrapper/3.1.0/maven-wrapper-3.1.0.jar"
++    fi
++    while IFS="=" read key value; do
++      case "$key" in (wrapperUrl) jarUrl="$value"; break ;;
++      esac
++    done < "$BASE_DIR/.mvn/wrapper/maven-wrapper.properties"
++    if [ "$MVNW_VERBOSE" = true ]; then
++      echo "Downloading from: $jarUrl"
++    fi
++    wrapperJarPath="$BASE_DIR/.mvn/wrapper/maven-wrapper.jar"
++    if $cygwin; then
++      wrapperJarPath=`cygpath --path --windows "$wrapperJarPath"`
++    fi
++
++    if command -v wget > /dev/null; then
++        if [ "$MVNW_VERBOSE" = true ]; then
++          echo "Found wget ... using wget"
++        fi
++        if [ -z "$MVNW_USERNAME" ] || [ -z "$MVNW_PASSWORD" ]; then
++            wget "$jarUrl" -O "$wrapperJarPath" || rm -f "$wrapperJarPath"
++        else
++            wget --http-user=$MVNW_USERNAME --http-password=$MVNW_PASSWORD "$jarUrl" -O "$wrapperJarPath" || rm -f "$wrapperJarPath"
++        fi
++    elif command -v curl > /dev/null; then
++        if [ "$MVNW_VERBOSE" = true ]; then
++          echo "Found curl ... using curl"
++        fi
++        if [ -z "$MVNW_USERNAME" ] || [ -z "$MVNW_PASSWORD" ]; then
++            curl -o "$wrapperJarPath" "$jarUrl" -f
++        else
++            curl --user $MVNW_USERNAME:$MVNW_PASSWORD -o "$wrapperJarPath" "$jarUrl" -f
++        fi
++
++    else
++        if [ "$MVNW_VERBOSE" = true ]; then
++          echo "Falling back to using Java to download"
++        fi
++        javaClass="$BASE_DIR/.mvn/wrapper/MavenWrapperDownloader.java"
++        # For Cygwin, switch paths to Windows format before running javac
++        if $cygwin; then
++          javaClass=`cygpath --path --windows "$javaClass"`
++        fi
++        if [ -e "$javaClass" ]; then
++            if [ ! -e "$BASE_DIR/.mvn/wrapper/MavenWrapperDownloader.class" ]; then
++                if [ "$MVNW_VERBOSE" = true ]; then
++                  echo " - Compiling MavenWrapperDownloader.java ..."
++                fi
++                # Compiling the Java class
++                ("$JAVA_HOME/bin/javac" "$javaClass")
++            fi
++            if [ -e "$BASE_DIR/.mvn/wrapper/MavenWrapperDownloader.class" ]; then
++                # Running the downloader
++                if [ "$MVNW_VERBOSE" = true ]; then
++                  echo " - Running MavenWrapperDownloader.java ..."
++                fi
++                ("$JAVA_HOME/bin/java" -cp .mvn/wrapper MavenWrapperDownloader "$MAVEN_PROJECTBASEDIR")
++            fi
++        fi
++    fi
++fi
++##########################################################################################
++# End of extension
++##########################################################################################
++
++export MAVEN_PROJECTBASEDIR=${MAVEN_BASEDIR:-"$BASE_DIR"}
++if [ "$MVNW_VERBOSE" = true ]; then
++  echo $MAVEN_PROJECTBASEDIR
++fi
++MAVEN_OPTS="$(concat_lines "$MAVEN_PROJECTBASEDIR/.mvn/jvm.config") $MAVEN_OPTS"
++
++# For Cygwin, switch paths to Windows format before running java
++if $cygwin; then
++  [ -n "$M2_HOME" ] &&
++    M2_HOME=`cygpath --path --windows "$M2_HOME"`
++  [ -n "$JAVA_HOME" ] &&
++    JAVA_HOME=`cygpath --path --windows "$JAVA_HOME"`
++  [ -n "$CLASSPATH" ] &&
++    CLASSPATH=`cygpath --path --windows "$CLASSPATH"`
++  [ -n "$MAVEN_PROJECTBASEDIR" ] &&
++    MAVEN_PROJECTBASEDIR=`cygpath --path --windows "$MAVEN_PROJECTBASEDIR"`
++fi
++
++# Provide a "standardized" way to retrieve the CLI args that will
++# work with both Windows and non-Windows executions.
++MAVEN_CMD_LINE_ARGS="$MAVEN_CONFIG $@"
++export MAVEN_CMD_LINE_ARGS
++
++WRAPPER_LAUNCHER=org.apache.maven.wrapper.MavenWrapperMain
++
++exec "$JAVACMD" \
++  $MAVEN_OPTS \
++  $MAVEN_DEBUG_OPTS \
++  -classpath "$MAVEN_PROJECTBASEDIR/.mvn/wrapper/maven-wrapper.jar" \
++  "-Dmaven.home=${M2_HOME}" \
++  "-Dmaven.multiModuleProjectDirectory=${MAVEN_PROJECTBASEDIR}" \
++  ${WRAPPER_LAUNCHER} $MAVEN_CONFIG "$@"
+Index: MobiLeLeLe/src/main/java/com/softuni/mobilele/config/BeanConfiguration.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/src/main/java/com/softuni/mobilele/config/BeanConfiguration.java b/MobiLeLeLe/src/main/java/com/softuni/mobilele/config/BeanConfiguration.java
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/src/main/java/com/softuni/mobilele/config/BeanConfiguration.java	(date 1674504342000)
+@@ -0,0 +1,14 @@
++package com.softuni.mobilele.config;
++
++import org.modelmapper.ModelMapper;
++import org.springframework.context.annotation.Bean;
++import org.springframework.context.annotation.Configuration;
++
++@Configuration
++public class BeanConfiguration {
++
++    @Bean
++    public ModelMapper modelMapper() {
++        return new ModelMapper();
++    }
++}
+Index: MobiLeLeLe/src/main/java/com/softuni/mobilele/web/BaseController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/src/main/java/com/softuni/mobilele/web/BaseController.java b/MobiLeLeLe/src/main/java/com/softuni/mobilele/web/BaseController.java
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/src/main/java/com/softuni/mobilele/web/BaseController.java	(date 1674504342000)
+@@ -0,0 +1,19 @@
++package com.softuni.mobilele.web;
++
++import org.springframework.web.servlet.ModelAndView;
++
++public abstract class BaseController {
++    public ModelAndView view(String viewName, ModelAndView modelAndView) {
++        modelAndView.setViewName(viewName);
++
++        return modelAndView;
++    }
++
++    public ModelAndView view(String viewName) {
++        return this.view(viewName, new ModelAndView());
++    }
++
++    public ModelAndView redirect(String url) {
++        return this.view("redirect:" + url);
++    }
++}
+Index: MobiLeLeLe/src/main/java/com/softuni/mobilele/web/HomeController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/src/main/java/com/softuni/mobilele/web/HomeController.java b/MobiLeLeLe/src/main/java/com/softuni/mobilele/web/HomeController.java
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/src/main/java/com/softuni/mobilele/web/HomeController.java	(date 1674504342000)
+@@ -0,0 +1,18 @@
++package com.softuni.mobilele.web;
++
++import org.springframework.stereotype.Controller;
++import org.springframework.web.bind.annotation.GetMapping;
++import org.springframework.web.bind.annotation.RequestMapping;
++import org.springframework.web.servlet.ModelAndView;
++
++@Controller
++@RequestMapping("/")
++public class HomeController extends BaseController {
++
++    @GetMapping
++    public ModelAndView getHome() {
++        return super.view("index");
++    }
++
++
++}
+Index: MobiLeLeLe/src/main/java/com/softuni/mobilele/web/UserController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/src/main/java/com/softuni/mobilele/web/UserController.java b/MobiLeLeLe/src/main/java/com/softuni/mobilele/web/UserController.java
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/src/main/java/com/softuni/mobilele/web/UserController.java	(date 1674504342000)
+@@ -0,0 +1,40 @@
++package com.softuni.mobilele.web;
++
++import com.softuni.mobilele.domain.dtoS.banding.UserRegisterFormDto;
++import com.softuni.mobilele.domain.dtoS.veiw.UserRoleViewDto;
++import com.softuni.mobilele.services.role.UserRoleService;
++import org.springframework.beans.factory.annotation.Autowired;
++import org.springframework.stereotype.Controller;
++import org.springframework.web.bind.annotation.GetMapping;
++import org.springframework.web.bind.annotation.ModelAttribute;
++import org.springframework.web.bind.annotation.PostMapping;
++import org.springframework.web.bind.annotation.RequestMapping;
++import org.springframework.web.servlet.ModelAndView;
++
++import java.util.List;
++
++@Controller
++@RequestMapping("/users") // url after localhost:8080 -> /users
++public class UserController extends BaseController {
++    private final UserRoleService roleService;
++
++    @Autowired
++    public UserController(UserRoleService roleService) {
++        this.roleService = roleService;
++    }
++
++    @GetMapping("/register") // post method localhost:8080/users/register
++    public ModelAndView getRegister(ModelAndView modelAndView) {
++        List<UserRoleViewDto> roleServiceAll = this.roleService.getAll();
++
++        modelAndView.addObject("roles", roleServiceAll);
++        modelAndView.addObject("userRegister", new UserRegisterFormDto());
++
++        return super.view("auth-register", modelAndView);
++    }
++
++    @PostMapping("/register")
++    public ModelAndView postRegister(@ModelAttribute UserRegisterFormDto userRegister) {
++        return super.redirect("auth-login");
++    }
++}
+Index: MobiLeLeLe/src/main/java/com/softuni/mobilele/MobileleApplication.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MobiLeLeLe/src/main/java/com/softuni/mobilele/MobileleApplication.java b/MobiLeLeLe/src/main/java/com/softuni/mobilele/MobileleApplication.java
+new file mode 100644
+--- /dev/null	(date 1674504342000)
++++ b/MobiLeLeLe/src/main/java/com/softuni/mobilele/MobileleApplication.java	(date 1674504342000)
+@@ -0,0 +1,13 @@
++package com.softuni.mobilele;
++
++import org.springframework.boot.SpringApplication;
++import org.springframework.boot.autoconfigure.SpringBootApplication;
++
++@SpringBootApplication
++public class MobileleApplication {
++
++    public static void main(String[] args) {
++        SpringApplication.run(MobileleApplication.class, args);
++    }
++
++}
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+new file mode 100644
+--- /dev/null	(date 1674568568527)
++++ b/.idea/compiler.xml	(date 1674568568527)
+@@ -0,0 +1,28 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="CompilerConfiguration">
++    <annotationProcessing>
++      <profile default="true" name="Default" enabled="true" />
++      <profile name="Maven default annotation processors profile" enabled="true">
++        <sourceOutputDir name="target/generated-sources/annotations" />
++        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
++        <outputRelativeToContentRoot value="true" />
++        <module name="pathfinder" />
++        <module name="springmvc" />
++      </profile>
++      <profile name="Gradle Imported" enabled="true">
++        <outputRelativeToContentRoot value="true" />
++        <processorPath useClasspath="false">
++          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.24/13a394eed5c4f9efb2a6d956e2086f1d81e857d9/lombok-1.18.24.jar" />
++        </processorPath>
++        <module name="MobiLeLeLe.main" />
++      </profile>
++    </annotationProcessing>
++  </component>
++  <component name="JavacSettings">
++    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
++      <module name="pathfinder" options="-parameters" />
++      <module name="springmvc" options="-parameters" />
++    </option>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1674565711558)
++++ b/.idea/misc.xml	(date 1674565711558)
+@@ -0,0 +1,17 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ExternalStorageConfigurationManager" enabled="true" />
++  <component name="FrameworkDetectionExcludesConfiguration">
++    <file type="web" url="file://$PROJECT_DIR$/intro" />
++    <file type="web" url="file://$PROJECT_DIR$/MobiLeLeLe" />
++  </component>
++  <component name="MavenProjectsManager">
++    <option name="originalFiles">
++      <list>
++        <option value="$PROJECT_DIR$/Pathfinder/pom.xml" />
++        <option value="$PROJECT_DIR$/SpringMvcDemo/pom.xml" />
++      </list>
++    </option>
++  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_19" default="true" project-jdk-name="openjdk-19" project-jdk-type="JavaSDK" />
++</project>
+\ No newline at end of file
+Index: .idea/Java_Spring_Fundamentals.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/Java_Spring_Fundamentals.iml b/.idea/Java_Spring_Fundamentals.iml
+new file mode 100644
+--- /dev/null	(date 1674550920526)
++++ b/.idea/Java_Spring_Fundamentals.iml	(date 1674550920526)
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1674550920573)
++++ b/.idea/modules.xml	(date 1674550920573)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/Java_Spring_Fundamentals.iml" filepath="$PROJECT_DIR$/.idea/Java_Spring_Fundamentals.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
