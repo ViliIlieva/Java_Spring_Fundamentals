@@ -15,7 +15,8 @@ public class SessionController {
   private static final String DEFAULT_LANG = "en";
 
   @GetMapping("/session")
-  public String session(HttpSession session,
+  public String session(HttpSession session,//стойността на тази сесия се определя
+                        //от кукито което се връща от потребителя
                         Model model) {
 
     var sessionLang = session.getAttribute(LANG_SESSION_ATTRIBUTE);
