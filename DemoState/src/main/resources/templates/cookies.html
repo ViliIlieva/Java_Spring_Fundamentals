@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en"
-      xmlns:th="http://www.thymeleaf.org">
+      xmlns:th="http://www.thymeleaf.org"><!--таймлийфа-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -10,11 +10,12 @@
 </head>
 <body>
 
+    //
     Current language is <span th:text="${lang}"/>.
 
     <br/>
 
-    <form th:action="@{/cookies}" th:method="post">
+    <form th:action="@{/cookies}" th:method="post"> <!-- форма с дропдаун в която избираме кукитата -->
         Choose language:
         <select
                 id="language"
