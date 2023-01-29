@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa82f279-a1d6-4a00-8b08-cfddca3d2886" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MobiLeLeLe2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MobiLeLeLe2/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_01_2023___16_11__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_01_2023___16_11__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_01_2023___16_18__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_01_2023___16_18__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoState/src/main/java/bg/softuni/state/web/CookieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/DemoState/src/main/java/bg/softuni/state/web/CookieController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoState/src/main/resources/templates/cookies.html" beforeDir="false" afterPath="$PROJECT_DIR$/DemoState/src/main/resources/templates/cookies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobiLeLeLe2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MobiLeLeLe2/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +40,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -74,8 +81,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/JAVA/Java_Spring_Fundamentals/DemoState",
-    "spring.configuration.checksum": "78bc77ea35e0eceb10f24b0b11c2de5a"
+    "last_opened_file_path": "D:/JAVA/Java_Spring_Fundamentals/MobiLeLeLe2",
+    "spring.configuration.checksum": "f47eabe31eacebcead2d0d9aded9a0bd"
   }
 }]]></component>
   <component name="RunDashboard">
@@ -85,7 +92,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.IntroApplication">
     <configuration name="IntroApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="intro.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="bg.softuni.intro.IntroApplication" />
@@ -129,6 +136,7 @@
       <workItem from="1674569458933" duration="77000" />
       <workItem from="1674569625717" duration="79000" />
       <workItem from="1674569758129" duration="305000" />
+      <workItem from="1675010430415" duration="267000" />
     </task>
     <task id="LOCAL-00001" summary="init 24.01.2023">
       <created>1674568654314</created>
