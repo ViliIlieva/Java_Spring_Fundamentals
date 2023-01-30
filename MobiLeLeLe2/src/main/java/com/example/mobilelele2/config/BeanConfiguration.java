@@ -11,4 +11,6 @@ public class BeanConfiguration {
     public ModelMapper modelMapper() {
         return new ModelMapper();
     }
+
+    //todo loggedUserClass -> user Logged Entries
 }

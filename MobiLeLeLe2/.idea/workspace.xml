@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f52145cb-603f-4e14-9d86-4e28ab45b5fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="f52145cb-603f-4e14-9d86-4e28ab45b5fa" name="Changes" comment="init 30.01.23">
       <change beforePath="$PROJECT_DIR$/../.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/shelf/Uncommitted_changes_before_Update_at_24_01_2023___16_11__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/shelf/Uncommitted_changes_before_Update_at_24_01_2023___16_11__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/shelf/Uncommitted_changes_before_Update_at_24_01_2023___16_18__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/shelf/Uncommitted_changes_before_Update_at_24_01_2023___16_18__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/demo/StateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/demo/StateController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/demo/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/demo/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/config/BeanConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/config/BeanConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/auth-login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/auth-login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/auth-register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/auth-register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/auth-login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/auth-login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,19 +92,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="MobiLeLeLe2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="MobiLeLeLe2" />
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
