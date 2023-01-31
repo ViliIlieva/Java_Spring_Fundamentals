@@ -23,13 +23,13 @@
             <ul class="navbar-nav mr-auto col-12 justify-content-between">
                 <li class="nav-item"
                     >
-                    <a class="nav-link" href="/brands/all">All Brands</a>
+                    <a class="nav-link" th:href="@{/brands/all}">All Brands</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/offers/add">Add Offer</a>
+                    <a class="nav-link" th:href="@{/offers/add}">Add Offer</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/offers/all">All Offers</a>
+                    <a class="nav-link" th:href="@{/offers/all}">All Offers</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button"
@@ -47,15 +47,15 @@
                     <div class="form-inline my-2 my-lg-0 border px-3">
                         <div class="logged-user"
                              text="Welcome, Gosho"></div>
-                        <a class="nav-link" href="/users/logout">Logout</a>
+                        <a class="nav-link" th:href="@{/users/logout">Logout</a>
                     </div>
                 </li>
                 
                     <li class="nav-item">
-                        <a class="nav-link" href="/users/register">Register</a>
+                        <a class="nav-link" th:href="@{/users/register">Register</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/users/login">Login</a>
+                        <a class="nav-link" th:href="@{/users/login">Login</a>
                     </li>
                 
             </ul>

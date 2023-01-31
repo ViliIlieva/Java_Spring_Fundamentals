@@ -24,4 +24,6 @@ public class UserServiceImpl implements UserService, DataBaseInitServiceService 
     public boolean isDbInit() {
         return this.userRepository.count() > 0;
     }
+
+
 }

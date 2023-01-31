@@ -1,8 +1,10 @@
 package com.example.mobilelele2.config;
 
+import com.example.mobilelele2.domain.beans.LoggedUser;
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.web.context.annotation.SessionScope;
 
 @Configuration
 public class BeanConfiguration {
@@ -12,5 +14,9 @@ public class BeanConfiguration {
         return new ModelMapper();
     }
 
-    //todo loggedUserClass -> user Logged Entries
+    @Bean
+    @SessionScope
+    public LoggedUser loggedUser(){
+        return new LoggedUser();
+    }
 }
