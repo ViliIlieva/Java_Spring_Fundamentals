@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f52145cb-603f-4e14-9d86-4e28ab45b5fa" name="Changes" comment="init 31.01.23" />
+    <list default="true" id="f52145cb-603f-4e14-9d86-4e28ab45b5fa" name="Changes" comment="init 01.02.23" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675199058643</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="init 01.02.23">
+      <created>1675255703938</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675255703939</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +181,8 @@
     <MESSAGE value="init 27.01.23" />
     <MESSAGE value="init 28.01.23" />
     <MESSAGE value="init 31.01.23" />
-    <option name="LAST_COMMIT_MESSAGE" value="init 31.01.23" />
+    <MESSAGE value="init 01.02.23" />
+    <option name="LAST_COMMIT_MESSAGE" value="init 01.02.23" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
