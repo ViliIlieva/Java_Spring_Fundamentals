@@ -39,4 +39,6 @@ public class UserController extends BaseController {
     public ModelAndView postRegister(@ModelAttribute UserRegisterFormDto userRegister) {
         return super.redirect("auth-login");
     }
+
+
 }

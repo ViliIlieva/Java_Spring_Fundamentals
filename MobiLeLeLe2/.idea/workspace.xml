@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f52145cb-603f-4e14-9d86-4e28ab45b5fa" name="Changes" comment="init 01.02.23" />
+    <list default="true" id="f52145cb-603f-4e14-9d86-4e28ab45b5fa" name="Changes" comment="init 01.02.23">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/repositories/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/repositories/RoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/services/role/UserRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/services/role/UserRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/services/role/UserRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/services/role/UserRoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/services/user/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/services/user/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/web/UserController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,11 +64,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "spring.configuration.checksum": "f7261c201eaa4b9062b35e2eb98fc3f0"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JAVA\Java_Spring_Fundamentals\MobiLeLeLe2\src\main\resources\templates\demo" />
@@ -117,6 +125,7 @@
       <workItem from="1675010160679" duration="265000" />
       <workItem from="1675010479659" duration="100000" />
       <workItem from="1675010793212" duration="67000" />
+      <workItem from="1675258276595" duration="4580000" />
     </task>
     <task id="LOCAL-00001" summary="init 27.01.23">
       <created>1674825382717</created>
@@ -183,21 +192,5 @@
     <MESSAGE value="init 31.01.23" />
     <MESSAGE value="init 01.02.23" />
     <option name="LAST_COMMIT_MESSAGE" value="init 01.02.23" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/mobilelele2/web/UserController.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/mobilelele2/web/UserController.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
