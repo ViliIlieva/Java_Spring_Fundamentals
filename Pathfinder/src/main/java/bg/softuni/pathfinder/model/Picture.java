@@ -1,6 +1,6 @@
 package bg.softuni.pathfinder.model;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @Entity
 @Table(name = "pictures")

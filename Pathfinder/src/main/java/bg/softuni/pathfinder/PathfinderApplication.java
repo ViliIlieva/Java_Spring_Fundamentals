@@ -14,7 +14,6 @@ public class PathfinderApplication {
 
     public void a() {
 
-
     }
 
 }

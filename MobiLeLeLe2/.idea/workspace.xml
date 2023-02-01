@@ -6,11 +6,35 @@
   <component name="ChangeListManager">
     <list default="true" id="f52145cb-603f-4e14-9d86-4e28ab45b5fa" name="Changes" comment="init 01.02.23">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/repositories/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/repositories/RoleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/services/role/UserRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/services/role/UserRoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/services/role/UserRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/services/role/UserRoleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/services/user/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/services/user/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/web/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pathfinder/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/PathfinderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/PathfinderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/Picture.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/Picture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/Route.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/Route.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/UsersPK.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/UsersPK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/dto/UserRegistrationDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/dto/UserRegistrationDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/enums/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/enums/Level.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/enums/RouteCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/enums/RouteCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/enums/UserRoles.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/enums/UserRoles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/web/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/web/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/add-route.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/add-route.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/bicycle.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/bicycle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/car.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/car.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/fragments/guest-nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/fragments/guest-nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/motorcycle.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/motorcycle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/pedestrian.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/pedestrian.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/route-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/route-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/routes.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/routes.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,12 +88,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "spring.configuration.checksum": "f7261c201eaa4b9062b35e2eb98fc3f0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;f7261c201eaa4b9062b35e2eb98fc3f0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JAVA\Java_Spring_Fundamentals\MobiLeLeLe2\src\main\resources\templates\demo" />
@@ -126,6 +150,7 @@
       <workItem from="1675010479659" duration="100000" />
       <workItem from="1675010793212" duration="67000" />
       <workItem from="1675258276595" duration="4580000" />
+      <workItem from="1675272260255" duration="922000" />
     </task>
     <task id="LOCAL-00001" summary="init 27.01.23">
       <created>1674825382717</created>

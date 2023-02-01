@@ -1,8 +1,9 @@
 package bg.softuni.pathfinder.model;
 
-import bg.softuni.pathfinder.model.enums.RouteCategory;
 
-import javax.persistence.*;
+import bg.softuni.pathfinder.model.enums.RouteCategory;
+import jakarta.persistence.*;
+
 
 @Entity
 @Table(name = "categories")

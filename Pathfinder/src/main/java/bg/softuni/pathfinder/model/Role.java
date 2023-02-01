@@ -1,8 +1,9 @@
 package bg.softuni.pathfinder.model;
 
+
 import bg.softuni.pathfinder.model.enums.UserRoles;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @Entity
 @Table(name = "roles")
