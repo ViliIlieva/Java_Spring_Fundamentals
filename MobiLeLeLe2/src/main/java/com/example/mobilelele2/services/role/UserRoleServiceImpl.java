@@ -51,7 +51,7 @@ public class UserRoleServiceImpl implements UserRoleService {
                 .collect(Collectors.toList());
     }
     @Override
-    public List<UserRoleModel> findAllRoles() {
+    public List<UserRoleModel> findAllRoles() {//открива всички роли
         return this.roleRepository.findAll()
                 .stream()
                 .map(r -> this.modelMapper.map(r, UserRoleModel.class))
@@ -59,7 +59,7 @@ public class UserRoleServiceImpl implements UserRoleService {
     }
 
     @Override
-    public UserRoleModel findRoleByName(String name) {
+    public UserRoleModel findRoleByName(String name) {//откриваме ролята по име
         return this.modelMapper.map(this.roleRepository.findByRole(name)
                 .orElseThrow(NoSuchElementException::new),
                 UserRoleModel.class);

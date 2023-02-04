@@ -5,36 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f52145cb-603f-4e14-9d86-4e28ab45b5fa" name="Changes" comment="init 01.02.23">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pathfinder/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/PathfinderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/PathfinderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/Picture.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/Picture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/Route.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/Route.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/UsersPK.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/UsersPK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/dto/UserRegistrationDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/dto/UserRegistrationDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/enums/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/enums/Level.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/enums/RouteCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/enums/RouteCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/enums/UserRoles.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/model/enums/UserRoles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/web/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/java/bg/softuni/pathfinder/web/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/add-route.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/add-route.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/bicycle.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/bicycle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/car.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/car.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/fragments/guest-nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/fragments/guest-nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/motorcycle.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/motorcycle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/pedestrian.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/pedestrian.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/route-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/route-details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/routes.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Pathfinder/src/main/resources/templates/routes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/domain/dtoS/model/UserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/domain/dtoS/model/UserModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/domain/dtoS/model/UserRoleModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/domain/dtoS/model/UserRoleModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/services/role/UserRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/services/role/UserRoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/services/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/services/user/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/services/user/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/services/user/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/web/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/auth-login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/auth-login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/auth-register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/auth-register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mobilelele2/repositories/RoleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mobilelele2/repositories/RoleRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mobilelele2/services/role/UserRoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mobilelele2/services/role/UserRoleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mobilelele2/services/role/UserRoleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mobilelele2/services/role/UserRoleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mobilelele2/services/user/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mobilelele2/services/user/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mobilelele2/services/user/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mobilelele2/services/user/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mobilelele2/web/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mobilelele2/web/UserController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +37,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
@@ -88,13 +83,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;f7261c201eaa4b9062b35e2eb98fc3f0&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Марков/softuni-spring-web-2023-jan-main/mobilele" />
+  </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.mobilelele2.domain.dtoS.banding" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JAVA\Java_Spring_Fundamentals\MobiLeLeLe2\src\main\resources\templates\demo" />
       <recent name="D:\JAVA\Java_Spring_Fundamentals\MobiLeLeLe2\src\main\resources\templates" />
@@ -150,7 +145,7 @@
       <workItem from="1675010479659" duration="100000" />
       <workItem from="1675010793212" duration="67000" />
       <workItem from="1675258276595" duration="4580000" />
-      <workItem from="1675272260255" duration="922000" />
+      <workItem from="1675272260255" duration="924000" />
     </task>
     <task id="LOCAL-00001" summary="init 27.01.23">
       <created>1674825382717</created>
@@ -217,5 +212,16 @@
     <MESSAGE value="init 31.01.23" />
     <MESSAGE value="init 01.02.23" />
     <option name="LAST_COMMIT_MESSAGE" value="init 01.02.23" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/mobilelele2/services/user/UserServiceImpl.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

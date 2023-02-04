@@ -1,6 +1,8 @@
 package com.example.mobilelele2.web;
 
+import com.example.mobilelele2.domain.dtoS.banding.UserLoginFormDto;
 import com.example.mobilelele2.domain.dtoS.banding.UserRegisterFormDto;
+import com.example.mobilelele2.domain.dtoS.model.UserModel;
 import com.example.mobilelele2.domain.dtoS.veiw.UserRoleViewDto;
 import com.example.mobilelele2.services.role.UserRoleService;
 import com.example.mobilelele2.services.user.UserService;
@@ -36,8 +38,26 @@ public class UserController extends BaseController {
     }
 
     @PostMapping("/register")
-    public ModelAndView postRegister(@ModelAttribute UserRegisterFormDto userRegister) {
-        return super.redirect("auth-login");
+    public ModelAndView postRegister(@ModelAttribute UserRegisterFormDto userRegisterInfo) {
+        this.userService.registerUser(userRegisterInfo);
+
+        return super.redirect("login");
+    }
+
+    @GetMapping("/login")
+    public ModelAndView getLogin(){
+        return super.view("auth-login");
+    }
+
+    @PostMapping("/login")
+    public ModelAndView postLogin(UserLoginFormDto userLoginFormDto){
+        UserModel userModel = this.userService.loginUser(userLoginFormDto);
+
+        return userModel.isValid()
+                ?
+                super.redirect("/")
+                :
+                super.redirect("login");
     }
 
 

@@ -7,15 +7,15 @@ import java.util.List;
 
 public class UserModel {
     private String id;
-    private String username; // –  username of the user.
-    private String password; //– password of the user.
-    private String firstName; //–  first name of the user.
-    private String lastName; //–  last name of the user.
-    private Boolean isActive; //– true OR false.
-    private List<UserRoleModel> role; //–  user's role (User or Admin).
-    private String imageUrl;//– a url of user's picture.
-    private Date created; // a date and time.
-    private Date modified;//– a date and time.
+    private String username;
+    private String password;
+    private String firstName;
+    private String lastName;
+    private Boolean isActive;
+    private List<UserRoleModel> role;
+    private String imageUrl;
+    private Date created;
+    private Date modified;
 
     public String getId() {
         return id;
@@ -107,5 +107,9 @@ public class UserModel {
     public UserModel setModified(Date modified) {
         this.modified = modified;
         return this;
+    }
+
+    public boolean isValid(){
+        return this.id != null;
     }
 }
