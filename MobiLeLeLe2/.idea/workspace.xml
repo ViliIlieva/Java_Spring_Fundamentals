@@ -4,24 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f52145cb-603f-4e14-9d86-4e28ab45b5fa" name="Changes" comment="init 01.02.23">
+    <list default="true" id="f52145cb-603f-4e14-9d86-4e28ab45b5fa" name="Changes" comment="init 04.02.23">
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/domain/dtoS/model/UserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/domain/dtoS/model/UserModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/domain/dtoS/model/UserRoleModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/domain/dtoS/model/UserRoleModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/repositories/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/services/role/UserRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/services/role/UserRoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/domain/beans/LoggedUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/domain/beans/LoggedUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/services/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/services/user/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/services/user/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/services/user/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/web/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/auth-login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/auth-login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/auth-register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/auth-register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mobilelele2/repositories/RoleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mobilelele2/repositories/RoleRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mobilelele2/services/role/UserRoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mobilelele2/services/role/UserRoleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mobilelele2/services/role/UserRoleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mobilelele2/services/role/UserRoleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/mobilelele2/services/user/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mobilelele2/services/user/UserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/mobilelele2/services/user/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mobilelele2/services/user/UserServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/mobilelele2/web/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mobilelele2/web/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -83,9 +79,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Марков/softuni-spring-web-2023-jan-main/mobilele" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/JAVA/Java_Spring_Fundamentals/Pathfinder",
+    "spring.configuration.checksum": "f7261c201eaa4b9062b35e2eb98fc3f0"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.mobilelele2.domain.dtoS.banding" />
@@ -146,6 +147,7 @@
       <workItem from="1675010793212" duration="67000" />
       <workItem from="1675258276595" duration="4580000" />
       <workItem from="1675272260255" duration="924000" />
+      <workItem from="1675593363771" duration="7370000" />
     </task>
     <task id="LOCAL-00001" summary="init 27.01.23">
       <created>1674825382717</created>
@@ -189,7 +191,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675255703939</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="init 04.02.23">
+      <created>1675528974675</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675528974675</updated>
+    </task>
+    <task id="LOCAL-00008" summary="init 04.02.23">
+      <created>1675528994372</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675528994372</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,17 +227,8 @@
     <MESSAGE value="init 28.01.23" />
     <MESSAGE value="init 31.01.23" />
     <MESSAGE value="init 01.02.23" />
-    <option name="LAST_COMMIT_MESSAGE" value="init 01.02.23" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/mobilelele2/services/user/UserServiceImpl.java</url>
-          <line>81</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="init 03.02.23" />
+    <MESSAGE value="init 04.02.23" />
+    <option name="LAST_COMMIT_MESSAGE" value="init 04.02.23" />
   </component>
 </project>

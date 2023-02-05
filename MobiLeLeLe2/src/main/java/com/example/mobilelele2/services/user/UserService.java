@@ -11,4 +11,6 @@ public interface UserService {
 
     //метод който логва самия юзър
     UserModel loginUser(UserLoginFormDto userLogin);
+
+    void logout();
 }

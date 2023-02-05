@@ -78,9 +78,12 @@ public class UserServiceImpl implements UserService, DataBaseInitServiceService 
                     .setUsername(userConfirmation.getUsername())
                     .setRoleModels(userConfirmation.getRole());
         }
-
         return userConfirmation;
+    }
 
+    @Override
+    public void logout(){
+        this.loggedUser.clearFields ();
     }
 
 }

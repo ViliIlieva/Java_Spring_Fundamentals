@@ -60,5 +60,11 @@ public class UserController extends BaseController {
                 super.redirect("login");
     }
 
+    @PostMapping("/logout")
+    public ModelAndView postLogout(){
+      this.userService.logout ();
+
+        return super.redirect("/");
+    }
 
 }
