@@ -57,3 +57,6 @@ form.main-form {
 .logged-user {
      color: white;
 }
+#navbarSupportedContent > ul > li:nth-child(5) > form > button{
+     background: none;
+}
