@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f52145cb-603f-4e14-9d86-4e28ab45b5fa" name="Changes" comment="init 05.02.23">
-      <change beforePath="$PROJECT_DIR$/../ExamPrep/BattleShip/1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mobilelele2/domain/beans/LoggedUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mobilelele2/domain/beans/LoggedUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/main.css" afterDir="false" />
-    </list>
+    <list default="true" id="f52145cb-603f-4e14-9d86-4e28ab45b5fa" name="Changes" comment="init 05.02.23" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +72,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/JAVA/Java_Spring_Fundamentals/Pathfinder",
+    "last_opened_file_path": "D:/Java Spring Web/Java_Spring_Fundamentals/ExamPrep/BattleShip",
     "spring.configuration.checksum": "f7261c201eaa4b9062b35e2eb98fc3f0"
   }
 }]]></component>
@@ -143,6 +138,7 @@
       <workItem from="1675272260255" duration="924000" />
       <workItem from="1675593363771" duration="7897000" />
       <workItem from="1675619853775" duration="2049000" />
+      <workItem from="1675687690771" duration="101000" />
     </task>
     <task id="LOCAL-00001" summary="init 27.01.23">
       <created>1674825382717</created>
