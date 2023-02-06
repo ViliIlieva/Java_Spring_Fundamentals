@@ -9,26 +9,19 @@ public class UserLoginFormDto {
     public UserLoginFormDto() {
     }
 
-    public UserLoginFormDto(String username, String password) {
-        this.username = username;
-        this.password = password;
-    }
-
     public String getUsername() {
         return username;
     }
 
-    public UserLoginFormDto setUsername(String username) {
+    public void setUsername(String username) {
         this.username = username;
-        return this;
     }
 
     public String getPassword() {
         return password;
     }
 
-    public UserLoginFormDto setPassword(String password) {
+    public void setPassword(String password) {
         this.password = password;
-        return this;
     }
 }

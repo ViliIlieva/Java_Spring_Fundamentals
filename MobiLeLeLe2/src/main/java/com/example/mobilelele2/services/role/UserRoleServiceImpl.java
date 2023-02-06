@@ -60,7 +60,7 @@ public class UserRoleServiceImpl implements UserRoleService {
 
     @Override
     public UserRoleModel findRoleByName(String name) {//откриваме ролята по име
-        return this.modelMapper.map(this.roleRepository.findByRole(name)
+        return this.modelMapper.map(this.roleRepository.findByRole(Role.valueOf (name))
                 .orElseThrow(NoSuchElementException::new),
                 UserRoleModel.class);
     }
