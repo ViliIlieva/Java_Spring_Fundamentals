@@ -3,7 +3,6 @@ package com.example.mobilelele2.domain.dtoS.banding;
 public class UserLoginFormDto {
 
     private String username;
-
     private String password;
 
     public UserLoginFormDto() {

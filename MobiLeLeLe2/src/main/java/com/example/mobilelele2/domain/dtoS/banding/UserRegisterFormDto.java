@@ -2,20 +2,33 @@ package com.example.mobilelele2.domain.dtoS.banding;
 
 
 import com.example.mobilelele2.domain.enums.Role;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
 
 public class UserRegisterFormDto {
 
-    private String username; // –  username of the user.
+    @NotNull
+    @Size(min = 2, max = 20)
+    private String username;
 
-    private String password; //– password of the user.
+    @NotNull
+    @Size(min = 2, max = 20)
+    private String password;
 
+    @NotNull
+    @Size(min = 2, max = 20)
     private String confirmPassword;
 
-    private String firstName; //–  first name of the user.
+    @NotNull
+    @Size(min = 2, max = 20)
+    private String firstName;
 
-    private String lastName; //–  last name of the user.
+    @NotNull
+    @Size(min = 2, max = 20)
+    private String lastName;
 
-    private Role role; //–  last name of the user.
+    @NotNull
+    private Role role;
 
     public String getUsername() {
         return username;

@@ -5,9 +5,7 @@ import java.util.Date;
 public class BrandDto extends BaseEntityDto {
 
     private String name;
-
     private Date created;
-
     private Date modified;
 
     public String getName() {
