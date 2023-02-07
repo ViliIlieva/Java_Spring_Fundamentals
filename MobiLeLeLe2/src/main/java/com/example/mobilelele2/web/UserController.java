@@ -38,7 +38,7 @@ public class UserController extends BaseController {
     }
 
     @PostMapping("/register")
-    public ModelAndView postRegister(@ModelAttribute UserRegisterFormDto userRegisterInfo) {
+    public ModelAndView postRegister(UserRegisterFormDto userRegisterInfo) {
         this.userService.registerUser(userRegisterInfo);
 
         return super.redirect("login");

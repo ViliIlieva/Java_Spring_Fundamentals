@@ -21,7 +21,6 @@ public class UserModel {
         return id;
     }
 
-    public UserModel(){}
 
     public UserModel setId(String id) {
         this.id = id;
