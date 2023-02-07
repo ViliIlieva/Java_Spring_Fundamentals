@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f52145cb-603f-4e14-9d86-4e28ab45b5fa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/domain/dtoS/banding/UserLoginFormDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/domain/dtoS/banding/UserLoginFormDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/domain/dtoS/banding/UserRegisterFormDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/domain/dtoS/banding/UserRegisterFormDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/domain/dtoS/model/BrandDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/domain/dtoS/model/BrandDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/domain/dtoS/veiw/UserRoleViewDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/domain/dtoS/veiw/UserRoleViewDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/web/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/auth-register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/auth-register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/domain/enitities/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mobilelele2/domain/enitities/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mobilelele2/domain/dtoS/banding/UserLoginFormDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mobilelele2/domain/dtoS/banding/UserLoginFormDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mobilelele2/domain/dtoS/banding/UserRegisterFormDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mobilelele2/domain/dtoS/banding/UserRegisterFormDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mobilelele2/domain/dtoS/model/BrandDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mobilelele2/domain/dtoS/model/BrandDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mobilelele2/domain/dtoS/veiw/UserRoleViewDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mobilelele2/domain/dtoS/veiw/UserRoleViewDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mobilelele2/web/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mobilelele2/web/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/auth-register.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/auth-register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +28,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -149,7 +150,8 @@
       <workItem from="1675593363771" duration="7897000" />
       <workItem from="1675619853775" duration="2049000" />
       <workItem from="1675687690771" duration="101000" />
-      <workItem from="1675794353915" duration="10787000" />
+      <workItem from="1675794353915" duration="11010000" />
+      <workItem from="1675805654938" duration="324000" />
     </task>
     <task id="LOCAL-00001" summary="init 27.01.23">
       <created>1674825382717</created>
@@ -228,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675717725304</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="init 07.02.23">
+      <created>1675805461523</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1675805461523</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +263,8 @@
     <MESSAGE value="init 04.02.23" />
     <MESSAGE value="init 05.02.23" />
     <MESSAGE value="init 06.02.23" />
-    <option name="LAST_COMMIT_MESSAGE" value="init 06.02.23" />
+    <MESSAGE value="init 07.02.23" />
+    <option name="LAST_COMMIT_MESSAGE" value="init 07.02.23" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
