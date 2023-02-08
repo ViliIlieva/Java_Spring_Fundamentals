@@ -10,7 +10,7 @@ public interface UserService {
     UserModel registerUser(UserRegisterFormDto userRegister);
 
     //метод който логва самия юзър
-    UserModel loginUser(UserLoginFormDto userLogin);
+    void loginUser(UserLoginFormDto userLogin);
 
     void logout();
 }

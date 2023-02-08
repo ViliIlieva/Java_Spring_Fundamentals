@@ -2,10 +2,9 @@ package com.example.mobilelele2.domain.enitities;
 
 
 import com.example.mobilelele2.domain.enums.Role;
-import jakarta.persistence.Entity;
-import jakarta.persistence.EnumType;
-import jakarta.persistence.Enumerated;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
+
+import java.util.List;
 
 @Entity
 @Table(name = "roles")
@@ -14,7 +13,7 @@ public class UserRole extends BaseEntity {
     @Enumerated(EnumType.STRING)
     private Role role;
 
-    public Role getRole() {
+       public Role getRole() {
         return role;
     }
 
@@ -22,4 +21,6 @@ public class UserRole extends BaseEntity {
         this.role = role;
         return this;
     }
+
+
 }

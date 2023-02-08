@@ -20,6 +20,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import java.util.List;
 
+
 @Controller
 @RequestMapping("/users") // url after localhost:8080 -> /users
 public class UserController extends BaseController {
@@ -46,51 +47,60 @@ public class UserController extends BaseController {
     //
     @PostMapping("/register")
     public String postRegister(@Valid @ModelAttribute(name = "userRegisterForm")//модел атрибута ще направи връзката с html-a и ДТО-то
-                                     UserRegisterFormDto userRegisterInfo,
-                                     BindingResult bindingResult,//показва резултата от валидациите в ДТО-то
-                                     RedirectAttributes redirectAttributes) {//атрибути които се пазят следващите две сесии
-        if (bindingResult.hasErrors ()) { //искаме да проверим дали байндинг резълта има грешки
-            redirectAttributes.addFlashAttribute ("userRegisterForm", userRegisterInfo) //ако има грешки да направим редирект, като заредим валидните данни
-                    .addFlashAttribute (BINDING_RESULT_PATH + "userRegisterForm", bindingResult);//а на полетата с грешки, байдинг резълта да покаже какви са валидните стойности
+                               UserRegisterFormDto userRegisterInfo,
+                               BindingResult bindingResult,//показва резултата от валидациите в ДТО-то
+                               RedirectAttributes redirectAttributes) {//атрибути които се пазят следващите две сесии
+        if (bindingResult.hasErrors()) { //искаме да проверим дали байндинг резълта има грешки
+            redirectAttributes.addFlashAttribute("userRegisterForm", userRegisterInfo) //ако има грешки да направим редирект, като заредим валидните данни
+                    .addFlashAttribute(BINDING_RESULT_PATH + "userRegisterForm", bindingResult);//а на полетата с грешки, байдинг резълта да покаже какви са валидните стойности
 
-        return "redirect:register";
+            return "redirect:register";
         }
         //ако успешно се регистрира, да се пренасочи към логин
-        this.userService.registerUser (userRegisterInfo);
+        this.userService.registerUser(userRegisterInfo);
 
         return "redirect:login";
     }
 
     @GetMapping("/login")
     public ModelAndView getLogin() {
-        return super.view ("auth-login");
+        return super.view("auth-login");
     }
 
-    @PostMapping("/login")
-    public ModelAndView postLogin(@ModelAttribute UserLoginFormDto userLoginFormDto) {
-        UserModel userModel = this.userService.loginUser (userLoginFormDto);
+    @PostMapping("/login")//искаме да вземем този атрибут изърЛогинФорм,трябва той да е валиден, трябва ни ДТО-то и грешките и моделАндВю за да го върна
+    public ModelAndView postLogin(@Valid @ModelAttribute(name = "userLoginForm") UserLoginFormDto userLoginForm,
+                                  BindingResult bindingResult,
+                                  ModelAndView modelAndView) {
 
-        return userModel.isValid ()
-                ? super.redirect ("/")
-                : super.redirect ("login");
+        if (bindingResult.hasErrors()) { //ако има грешка, няма такъв потребител или паролата не съвпада с тази в базата
+            return super.view("auth-login",//върни ми формата
+                    modelAndView.addObject("userLoginForm", userLoginForm));
+        }
+
+        return super.redirect("/");
     }
 
     @PostMapping("/logout")
     public ModelAndView postLogout() {
-        this.userService.logout ();
+        this.userService.logout();
 
-        return super.redirect ("/");
+        return super.redirect("/");
     }
 
     //Model attributes
 
     @ModelAttribute(name = "userRegisterForm")
     public UserRegisterFormDto initUserRegisterFormDto() {
-        return new UserRegisterFormDto ();
+        return new UserRegisterFormDto();
+    }
+
+    @ModelAttribute(name = "userLoginForm")
+    public UserLoginFormDto initUserLoginFormDto() {
+        return new UserLoginFormDto();
     }
 
     @ModelAttribute(name = "roles")
     public List<UserRoleViewDto> getAllRoles() {
-        return this.roleService.getAll ();
+        return this.roleService.getAll();
     }
 }

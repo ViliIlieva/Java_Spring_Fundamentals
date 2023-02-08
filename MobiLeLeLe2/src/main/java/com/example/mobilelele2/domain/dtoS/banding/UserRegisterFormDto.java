@@ -2,9 +2,11 @@ package com.example.mobilelele2.domain.dtoS.banding;
 
 
 import com.example.mobilelele2.domain.enums.Role;
+import com.example.mobilelele2.validations.matchingPassword.PasswordMatch;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 
+@PasswordMatch(password = "password", confirmPassword = "confirmPassword")
 public class UserRegisterFormDto {
 
     @NotNull
