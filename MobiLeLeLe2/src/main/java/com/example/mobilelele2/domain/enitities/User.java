@@ -24,7 +24,7 @@ public class User extends BaseEntity {
     @Column
     private Boolean isActive; //– true OR false.
 
-    @OneToMany(cascade = CascadeType.MERGE)
+    @ManyToMany
     private List<UserRole> role; //–  user's role (User or Admin).
 
     @Column
@@ -81,15 +81,6 @@ public class User extends BaseEntity {
         return this;
     }
 
-    public List<UserRole> getRole() {
-        return role;
-    }
-
-    public User setRole(List<UserRole> role) {
-        this.role = role;
-        return this;
-    }
-
     public String getImageUrl() {
         return imageUrl;
     }
@@ -114,6 +105,15 @@ public class User extends BaseEntity {
 
     public User setModified(Date modified) {
         this.modified = modified;
+        return this;
+    }
+
+    public List<UserRole> getRole() {
+        return role;
+    }
+
+    public User setRole(List<UserRole> role) {
+        this.role = role;
         return this;
     }
 }

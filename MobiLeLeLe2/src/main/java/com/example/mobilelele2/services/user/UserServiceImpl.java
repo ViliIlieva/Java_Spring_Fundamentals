@@ -61,24 +61,16 @@ public class UserServiceImpl implements UserService, DataBaseInitServiceService 
 
     @Override
     //метод който логва самия юзър
-    public UserModel loginUser(UserLoginFormDto userLogin) {
+    public void loginUser(UserLoginFormDto userLogin) {
 
-        Optional<User> loginCandidate = this.userRepository.findByUsername (userLogin.getUsername ());
+        UserModel loginCandidate = //вземам полето и с помоща на модел мапър го обръщам към юзър модела ми
+                this.modelMapper.map(this.userRepository.findByUsername(userLogin.getUsername()).get(),
+                        UserModel.class);
 
-        UserModel userConfirmation = loginCandidate.isPresent ()//ако този юзър го има в базата
-                && loginCandidate.get ().getPassword ().equals (userLogin.getPassword ())//и паролата му съвпада
-                ?
-                this.modelMapper.map (loginCandidate.get (), UserModel.class)//обърни го в нашия юзър модел
-                :
-                new UserModel ();//ако го няма направи празен юзър модел
-
-        if (userConfirmation.isValid ()) {
-            this.loggedUser
-                    .setId (userConfirmation.getId ())
-                    .setUsername (userConfirmation.getUsername ())
-                    .setRoleModels (userConfirmation.getRole ());
-        }
-        return userConfirmation;
+        this.loggedUser //заместваме информацията на логин кандидата
+                .setId(loginCandidate.getId())
+                .setUsername(loginCandidate.getUsername())
+                .setRoleModels(loginCandidate.getRole());
     }
 
     @Override

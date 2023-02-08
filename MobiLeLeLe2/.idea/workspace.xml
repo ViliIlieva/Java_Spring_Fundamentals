@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f52145cb-603f-4e14-9d86-4e28ab45b5fa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/mobilelele2/domain/enitities/BaseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/mobilelele2/domain/enitities/BaseEntity.class" afterDir="false" />
-    </list>
+    <list default="true" id="f52145cb-603f-4e14-9d86-4e28ab45b5fa" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,8 +13,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -83,6 +81,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.mobilelele2.validations.userExists" />
+      <recent name="com.example.mobilelele2.validations" />
       <recent name="com.example.mobilelele2.domain.dtoS.banding" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -145,8 +145,7 @@
       <workItem from="1675619853775" duration="2049000" />
       <workItem from="1675687690771" duration="101000" />
       <workItem from="1675794353915" duration="11010000" />
-      <workItem from="1675805654938" duration="671000" />
-      <workItem from="1675872508103" duration="7000" />
+      <workItem from="1675805654938" duration="324000" />
     </task>
     <task id="LOCAL-00001" summary="init 27.01.23">
       <created>1674825382717</created>
@@ -232,12 +231,12 @@
       <option name="project" value="LOCAL" />
       <updated>1675805461523</updated>
     </task>
-    <task id="LOCAL-00013" summary="init 07.02.23">
-      <created>1675806280952</created>
+    <task id="LOCAL-00013" summary="init 08.02.23">
+      <created>1675865138257</created>
       <option name="number" value="00013" />
       <option name="presentableId" value="LOCAL-00013" />
       <option name="project" value="LOCAL" />
-      <updated>1675806280952</updated>
+      <updated>1675865138258</updated>
     </task>
     <option name="localTasksCounter" value="14" />
     <servers />
@@ -266,27 +265,7 @@
     <MESSAGE value="init 05.02.23" />
     <MESSAGE value="init 06.02.23" />
     <MESSAGE value="init 07.02.23" />
-    <option name="LAST_COMMIT_MESSAGE" value="init 07.02.23" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/mobilelele2/services/user/UserServiceImpl.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/mobilelele2/web/UserController.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/mobilelele2/web/UserController.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="init 08.02.23" />
+    <option name="LAST_COMMIT_MESSAGE" value="init 08.02.23" />
   </component>
 </project>
