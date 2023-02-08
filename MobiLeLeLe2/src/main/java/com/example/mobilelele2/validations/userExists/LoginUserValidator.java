@@ -9,6 +9,7 @@ import org.modelmapper.ModelMapper;
 
 import java.util.Optional;
 
+//не е добра практика да достъпваме директно репозиторито, трябва да е през сървиса в който да има findByUsername
 public record LoginUserValidator(UserRepository userRepository,
                                  ModelMapper modelMapper)
         implements ConstraintValidator<ValidateLoginUser, UserLoginFormDto> {//тук направо подаваме обекта върху който ще работим, по този начин няма нужда да пишем инициалайзъра
