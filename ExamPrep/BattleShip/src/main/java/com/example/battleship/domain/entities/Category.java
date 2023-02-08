@@ -1,4 +1,4 @@
-package com.example.battleship.models;
+package com.example.battleship.domain.entities;
 
 import jakarta.persistence.*;
 
@@ -9,15 +9,14 @@ public class Category {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
-    @Enumerated
+    @Enumerated(EnumType.ORDINAL)
     @Column(unique = true, nullable = false)
     private ShipType name;
 
     @Column(columnDefinition = "text")
     private String description;
 
-    public Category() {
-    }
+    public Category() {}
 
     public Category(ShipType name) {
         this.name = name;
@@ -27,26 +26,23 @@ public class Category {
         return id;
     }
 
-    public Category setId(long id) {
+    public void setId(long id) {
         this.id = id;
-        return this;
     }
 
     public ShipType getName() {
         return name;
     }
 
-    public Category setName(ShipType name) {
+    public void setName(ShipType name) {
         this.name = name;
-        return this;
     }
 
     public String getDescription() {
         return description;
     }
 
-    public Category setDescription(String description) {
+    public void setDescription(String description) {
         this.description = description;
-        return this;
     }
 }

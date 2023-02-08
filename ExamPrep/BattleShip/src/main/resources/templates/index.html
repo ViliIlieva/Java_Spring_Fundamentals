@@ -1,38 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Battleships Application</title>
-    <link rel="stylesheet" href="/css/reset-css.css"/>
-    <link rel="stylesheet" href="/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="/css/style.css"/>
+    <th:block th:replace="~{fragments/head}"></th:block>
+
 </head>
 <body class="body-main">
-<header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top rounded">
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/">Home</a>
-                </li>               
-                    <li class="nav-item">
-                        <a class="nav-link" href="/">Login</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/">Register</a>
-                    </li>               
-                    <li class="nav-item">
-                        <a class="nav-link" href="/">Add Ship</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/">Logout</a>
-                    </li>                
-            </ul>
-            <img width="50px" src="/images/ufo.png" alt="Ufo image">
-        </div>
-    </nav>
-</header>
+<header th:include="~{fragments/navigation}"></header>
 <main role="main">
     <div class="jumbotron">
         <div class="container text-light text-center">
@@ -51,9 +25,8 @@
             </div>
         </div>
     </div>
-    <footer class="container mt-0 text-white">
-        <p>&copy;SoftUni Spring Team 2021. All rights reserved.</p>
-    </footer>
+    <th:block th:replace="~{fragments/footer}" />
+
 </main>
 </body>
 </html>
