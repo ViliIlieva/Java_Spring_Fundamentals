@@ -19,16 +19,19 @@ public class HomeController {
 
     private final AuthService authService;
 
-    @ModelAttribute("startBattleDTO")
-    public StartBattleDTO initBattleForm() {
-        return new StartBattleDTO();
-    }
-
     @Autowired
     public HomeController(ShipService shipService, AuthService authService) {
         this.shipService = shipService;
         this.authService = authService;
     }
+    @ModelAttribute("startBattleDTO")
+    public StartBattleDTO initBattleForm() {
+        return new StartBattleDTO();
+    }
+
+
+
+
 
     //ако юзъра е логнат да се зарежда home
     @GetMapping("/")
@@ -40,9 +43,9 @@ public class HomeController {
         return "index";
     }
 
-
     @GetMapping("/home")
     public String loggedInIndex(Model model) {
+        //ако няма логнат юзър да нямам право на достъп до хоум страницата задача.5
         if (!this.authService.isLoggedIn()) {
             return "redirect:/";
         }
@@ -50,10 +53,12 @@ public class HomeController {
         long loggedUserId = this.authService.getLoggedUserId();
         //собствените кораби, метода е в сървиса и репозиторито
         List<ShipDTO> ownShips = this.shipService.getShipsOwnedBy(loggedUserId);
-        //кораби на врага
+        //всички останали кораби които не са с логнатото ID
         List<ShipDTO> enemyShips = this.shipService.getShipsNotOwnedBy(loggedUserId);
+        //сортирани всички кораби от базата
         List<ShipDTO> sortedShips = this.shipService.getAllSorted();
 
+        //това което закачим към модела ще бъде подадено към html-а
         model.addAttribute("ownShips", ownShips);
         model.addAttribute("enemyShips", enemyShips);
         model.addAttribute("sortedShips", sortedShips);

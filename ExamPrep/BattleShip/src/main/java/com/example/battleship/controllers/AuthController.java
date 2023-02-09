@@ -45,6 +45,7 @@ public class AuthController {
                            BindingResult bindingResult,//резултата от валидацията/грешките
                            RedirectAttributes redirectAttributes) {//да запазим грешките и да ги покажем в следващата сесия
 
+        //логнатия няма достъп до регистрационна форма задача.5
         if (this.authService.isLoggedIn ()) {
             return "redirect:/home";
         }
@@ -64,7 +65,7 @@ public class AuthController {
 
     @GetMapping("/login")
     public String login() {
-        //ако сме логнати
+        //ако сме логнати нямаме достъп до тази стр. задача.5
         if (this.authService.isLoggedIn ()) {
             return "redirect:/home";
         }

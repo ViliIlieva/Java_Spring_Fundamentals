@@ -33,7 +33,7 @@ public class ShipController {
 
     @GetMapping("/ships/add")
     public String ships() {
-        //проверява дали юзъра който ще добавя кораб е логнат
+        //не логнат/гост/ няма достъп до тази страница задача.5
         if (!this.authService.isLoggedIn()) {
             return "redirect:/";
         }

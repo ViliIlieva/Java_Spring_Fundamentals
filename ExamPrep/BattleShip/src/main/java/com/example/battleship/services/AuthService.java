@@ -66,14 +66,17 @@ public class AuthService {
         return true;
     }
 
+    //да се изчисти информацията за ID и юзърнейма и да излезем от хоум
     public void logout() {
         this.userSession.logout();
     }
 
+    //проверява дали има в момента логнат юзър,
     public boolean isLoggedIn() {
         return this.userSession.getId() > 0;
     }
 
+    //взема на логнатия юзър ID-то
     public long getLoggedUserId() {
         return this.userSession.getId();
     }
