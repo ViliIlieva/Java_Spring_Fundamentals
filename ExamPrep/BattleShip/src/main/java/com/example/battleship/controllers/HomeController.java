@@ -30,24 +30,27 @@ public class HomeController {
         this.authService = authService;
     }
 
+    //ако юзъра е логнат да се зарежда home
     @GetMapping("/")
     public String loggedOutIndex() {
         if (this.authService.isLoggedIn()) {
             return "redirect:/home";
         }
-
+        //в противен случей госта има достъп само до началнат страница
         return "index";
     }
+
 
     @GetMapping("/home")
     public String loggedInIndex(Model model) {
         if (!this.authService.isLoggedIn()) {
             return "redirect:/";
         }
-
+        //намираме ID-то на логнатия потребител, за да може да търсим по него
         long loggedUserId = this.authService.getLoggedUserId();
-
-         List<ShipDTO> ownShips = this.shipService.getShipsOwnedBy(loggedUserId);
+        //собствените кораби, метода е в сървиса и репозиторито
+        List<ShipDTO> ownShips = this.shipService.getShipsOwnedBy(loggedUserId);
+        //кораби на врага
         List<ShipDTO> enemyShips = this.shipService.getShipsNotOwnedBy(loggedUserId);
         List<ShipDTO> sortedShips = this.shipService.getAllSorted();
 

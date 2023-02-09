@@ -19,7 +19,7 @@ public class Ship {
 
     private LocalDate created;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.LAZY)//не винаги ни трябва юзъра
     private User user;
 
     @ManyToOne

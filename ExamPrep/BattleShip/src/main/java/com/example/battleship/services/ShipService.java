@@ -48,9 +48,9 @@ public class ShipService {
 
         //използваме switch за да зададем категория на кораба спрямо цифрата която са ни подали
         ShipType type = switch (createShipDTO.getCategory()) {
-            case 0 -> ShipType.BATTLE;
-            case 1 -> ShipType.CARGO;
-            case 2 -> ShipType.PATROL;
+            case 1 -> ShipType.BATTLE;
+            case 2 -> ShipType.CARGO;
+            case 3 -> ShipType.PATROL;
             default -> ShipType.BATTLE;
         };
 
@@ -75,6 +75,7 @@ public class ShipService {
         return true;
     }
 
+    //извлича от репозиторито всички кораби на логнатия потребител и ги събира в лист
     public List<ShipDTO> getShipsOwnedBy(long ownerId) {
         return this.shipRepository.findByUserId(ownerId)
             .stream()
@@ -82,15 +83,15 @@ public class ShipService {
             .collect(Collectors.toList());
     }
 
-
+    //извлиза от базата всички останали кораби
     public List<ShipDTO> getShipsNotOwnedBy(long ownerId) {
         return this.shipRepository.findByUserIdNot(ownerId)
             .stream()
-            .map(ShipDTO::new)
+            .map(ShipDTO::new)//тук може и с модел мапъра
             .collect(Collectors.toList());
     }
 
-
+    //сортирани корабите
     public List<ShipDTO> getAllSorted() {
         return this.shipRepository.findByOrderByHealthAscNameDescPowerAsc()
             .stream()

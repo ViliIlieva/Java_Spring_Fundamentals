@@ -21,8 +21,6 @@
                            th:object="${loginDTO}"
                           class="text-center text-light">
                         <h3 class="mt-5 text-center">
-                            <!--в AuthController проверяваме дали логваме юзъра успешно,
-                             ако не изкарваме долното съобщение  -->
                             <strong th:if="${badCredentials}" class="rounded  pl-3 text-danger">
                                 Enter valid username and password</strong>
                         </h3>

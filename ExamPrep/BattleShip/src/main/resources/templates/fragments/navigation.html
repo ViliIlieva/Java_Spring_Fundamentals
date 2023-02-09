@@ -1,10 +1,6 @@
 <nav class="navbar navbar-expand-md navbar-dark fixed-top rounded">
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
-            <!--разделяме навигацията на два блока за нелогнат юзър и за
-            логнат юзър, ако id-то е по голямо от 0, защото когато няма
-            логнат юзър зануляваме id-то от session/loggedUser класа
-            затова слагаме @ за сесията-->
             <th:block th:if="${@loggedUser.id == 0}">
                 <li class="nav-item active">
                     <a class="nav-link" href="/">Home</a>

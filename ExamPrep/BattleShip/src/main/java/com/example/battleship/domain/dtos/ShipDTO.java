@@ -3,11 +3,13 @@ package com.example.battleship.domain.dtos;
 
 import com.example.battleship.domain.entities.Ship;
 
+//модела който ще използваме за изпращане на данните
 public class ShipDTO {
     private long id;
     private String name;
     private long health;
     private long power;
+
 
     public ShipDTO(Ship ship) {
         this.id = ship.getId();
