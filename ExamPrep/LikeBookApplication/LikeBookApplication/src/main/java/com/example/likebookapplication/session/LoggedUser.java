@@ -31,11 +31,11 @@ public class LoggedUser {
         this.id = id;
     }
 
-    public String getFullName() {
+    public String getUsername() {
         return username;
     }
 
-    public void setFullName(String fullName) {
-        this.username = fullName;
+    public void setUsername(String username) {
+        this.username = username;
     }
 }

@@ -1,35 +1,49 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml"
       xmlns:th="http://www.thymeleaf.org">
-<head th:replace="fragments/commons::head"></head>
+<head th:replace="~{fragments/commons::head}"></head>
 <body>
-<header th:replace="fragments/commons::nav"></header>
+<header th:replace="~{fragments/commons::nav}"></header>
 <main>
     <h1 class="text-center mt-2"><span class="badge badge-pill badge-dark">Add post</span></h1>
     <hr class="hr-3 w-25 bg-white"/>
 
-    <form class="mx-auto w-25 bg-blur rounded" method="" action="/" >
+    <form class="mx-auto w-25 bg-blur rounded"
+          th:method="POST"
+          th:action="@{/post/add}"
+          th:object="${addPostDTO}">
 
         <div class="form-group">
             <div class="label-holder text-white textCol d-flex justify-content-center">
-                <label for="content" class="h4 mb-2">Content</label>
+                <label for="content" class="h4 mb-2">
+                    Content
+                </label>
             </div>
-            <textarea type="text" class="form-control" id="content" name="content"></textarea>
-            <small class="text-danger">Content error message</small>
+            <textarea th:field="*{content}"
+                      type="text"
+                      class="form-control"
+                      id="content"
+                      name="content"></textarea>
+            <small th:if="${#fields.hasErrors('content')}" th:errors="*{content}" class="text-danger">Content length must be between 2 and 150 characters!</small>
         </div>
 
         <div class="form-group">
             <div class="text-white label-holder d-flex justify-content-center">
-                <label for="mood" class="h4 mb-2">Mood</label>
+                <label for="mood" class="h4 mb-2">
+                    Mood
+                </label>
             </div>
-            <select class="browser-default custom-select" id="mood" name="mood">
+            <select th:field="*{mood}"
+                    class="browser-default custom-select"
+                    id="mood"
+                    name="mood">
                 <option value="">Select mood</option>
                 <option value="HAPPY">Happy</option>
                 <option value="SAD">Sad</option>
                 <option value="INSPIRED">Inspired</option>
             </select>
 
-            <small class="text-danger">Mood error message</small>
+            <small th:if="${#fields.hasErrors('mood')}" th:errors="*{mood}" class="text-danger">You must select a mood!</small>
         </div>
 
         <div class="button-holder d-flex justify-content-center">
@@ -38,6 +52,6 @@
 
     </form>
 </main>
-<footer th:replace="fragments/commons::footer"></footer>
+<footer th:replace="~{fragments/commons::footer}"></footer>
 </body>
 </html>
