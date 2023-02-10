@@ -1,5 +1,6 @@
 package com.example.likebookapplication.controller;
 
+import com.example.likebookapplication.model.dtos.LoginDTO;
 import com.example.likebookapplication.model.dtos.UserRegistrationDTO;
 import com.example.likebookapplication.service.AuthService;
 import jakarta.validation.Valid;
@@ -24,6 +25,13 @@ public class AuthController {
     public UserRegistrationDTO initRegistrationDTO() {
         return new UserRegistrationDTO ();
     }
+
+    @ModelAttribute("loginDTO")
+    public LoginDTO initLoginDTO() {
+        return new LoginDTO ();
+    }
+
+
 
     @GetMapping("/register")
     public String register(){
@@ -51,5 +59,49 @@ public class AuthController {
             return "redirect:/register";
         }
         return "redirect:/login";
+    }
+
+    @GetMapping("/login")
+    public String login() {
+        if (this.authService.isLoggedIn ()) {
+            return "redirect:/home";
+        }
+
+        return "login";
+    }
+
+    @PostMapping("/login")
+    public String login(@Valid LoginDTO loginDTO,
+                        BindingResult bindingResult,
+                        RedirectAttributes redirectAttributes) {
+
+        if (this.authService.isLoggedIn ()) {
+            return "redirect:/home";
+        }
+
+        if (bindingResult.hasErrors ()) {
+            redirectAttributes.addFlashAttribute ("loginDTO", loginDTO);
+            redirectAttributes.addFlashAttribute (
+                    "org.springframework.validation.BindingResult.loginDTO", bindingResult);
+
+            return "redirect:/login";
+        }
+
+        //ако не сме го логнали успешно, няма го в базата, връщаме грешките и вярната информация
+        if (!this.authService.login (loginDTO)) {
+            redirectAttributes.addFlashAttribute ("loginDTO", loginDTO);
+            redirectAttributes.addFlashAttribute ("badCredentials", true);
+
+            return "redirect:/login";
+        }
+
+        return "redirect:/home";
+    }
+
+    @GetMapping("/logout")
+    public String logout() {
+        this.authService.logout ();
+
+        return "redirect:/";
     }
 }
