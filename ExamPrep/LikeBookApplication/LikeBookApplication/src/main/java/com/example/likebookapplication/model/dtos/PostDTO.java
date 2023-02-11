@@ -5,13 +5,13 @@ import com.example.likebookapplication.model.entity.Post;
 import com.example.likebookapplication.model.entity.User;
 
 import java.util.List;
-import java.util.Set;
 
 public class PostDTO {
     private long id;
     private String content;
     private MoodsEnum mood;
     private int likes;
+    private String username;
     private List<User> userLikes;
 
     public PostDTO() {
@@ -23,6 +23,7 @@ public class PostDTO {
         this.mood = post.getMood ().getMoodName ();
         this.likes = post.getLikes ();
         this.userLikes = post.getUserLikes ();
+        this.username = post.getUser ().getUsername ();
     }
 
     public long getId() {
@@ -69,4 +70,15 @@ public class PostDTO {
         this.userLikes = userLikes;
         return this;
     }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public PostDTO setUsername(String username) {
+        this.username = username;
+        return this;
+    }
+
+
 }

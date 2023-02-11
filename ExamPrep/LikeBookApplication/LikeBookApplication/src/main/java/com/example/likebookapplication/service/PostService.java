@@ -68,4 +68,26 @@ public class PostService {
                 .collect(Collectors.toList());
     }
 
+    public List<PostDTO> getPostNotOwnedBy(long loggedUserId) {
+        return this.postRepository.findByUserIdNot (loggedUserId)
+                .stream ()
+                .map (PostDTO::new)
+                .collect(Collectors.toList());
+    }
+
+    public void removePostById(Long id){
+        postRepository.deleteById (id);
+    }
+
+    public void likePostWithId(Long postId, long userId) {
+        Post post = postRepository.findById (postId).orElse (null);
+        User user = userRepository.findById (userId).orElse (null);
+
+        post.getUserLikes ().add (user);
+        post.setLikes (post.getLikes ()+1);
+
+        postRepository.save (post);
+    }
+
+
 }

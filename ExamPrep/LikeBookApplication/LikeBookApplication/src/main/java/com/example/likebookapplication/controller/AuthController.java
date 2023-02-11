@@ -100,6 +100,11 @@ public class AuthController {
 
     @GetMapping("/logout")
     public String logout() {
+
+        if(!this.authService.isLoggedIn ()){
+            return "redirect:/";
+        }
+
         this.authService.logout ();
 
         return "redirect:/";

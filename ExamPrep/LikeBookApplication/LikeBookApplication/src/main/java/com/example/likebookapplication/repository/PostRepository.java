@@ -1,6 +1,5 @@
 package com.example.likebookapplication.repository;
 
-import com.example.likebookapplication.model.dtos.PostDTO;
 import com.example.likebookapplication.model.entity.Post;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

@@ -7,7 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
 
 import java.util.List;
 
@@ -39,7 +38,9 @@ public class HomeController {
         long loggedUserId = this.authService.getLoggedUserId();
 
         List<PostDTO> ownPost = this.postService.getPostOwnedBy (loggedUserId);
-
+        model.addAttribute ("userPosts", ownPost);
+        List<PostDTO> otherPost = this.postService.getPostNotOwnedBy(loggedUserId);
+        model.addAttribute ("otherUserPosts", otherPost);
         return "home";
     }
 }
