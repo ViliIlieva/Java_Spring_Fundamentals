@@ -26,7 +26,7 @@ public class AddSongDTO {
     @NotNull
     private Long duration;
 
-    @NotBlank
+    @NotNull
     private StyleEnum style;
 
     public AddSongDTO() {

@@ -31,6 +31,7 @@ public class SongService {
     }
 
     public boolean addSong(AddSongDTO addSongDTO){
+
         StyleEnum type = switch (addSongDTO.getStyle ().toString ().toUpperCase ()){
             case "POP" -> StyleEnum.POP;
             case "ROCK" -> StyleEnum.ROCK;
