@@ -22,7 +22,7 @@ public class Song extends BaseEntity {
     private LocalDate releaseDate;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "fk_style")
+    @JoinColumn(name = "style_id")
     private Style style;
 
     @ManyToMany(mappedBy = "playlist")

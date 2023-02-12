@@ -2,6 +2,7 @@ package com.example.spotifyplaylistapp.service;
 
 import com.example.spotifyplaylistapp.model.dtos.LoginDTO;
 import com.example.spotifyplaylistapp.model.dtos.UserRegistrationDTO;
+import com.example.spotifyplaylistapp.model.entity.Song;
 import com.example.spotifyplaylistapp.model.entity.User;
 import com.example.spotifyplaylistapp.repository.UserRepository;
 import com.example.spotifyplaylistapp.session.LoggedUser;
@@ -67,12 +68,31 @@ public class AuthService {
         return true;
     }
 
-
     public void logout() {
         this.userSession.logout();
     }
 
     public long getLoggedUserId() {
         return this.userSession.getId();
+    }
+
+    public void addSongToUser(long userId, Song song) {
+        User user = this.userRepository.findById (userId).orElseThrow ();
+        if (user.getPlaylist().stream().noneMatch(s -> s.getId().equals(song.getId()))) {
+            user.addSongToPlaylist(song);
+            this.userRepository.save(user);
+        }
+    }
+
+    public void removeSongFromUser(Long userId, Long songId) {
+        User user = this.userRepository.findById (userId).orElseThrow ();
+        user.removeSongFromPlaylist (songId);
+        this.userRepository.save (user);
+    }
+
+    public void deleteAllSongs(Long userId) {
+        User user = this.userRepository.findById (userId).orElseThrow ();
+        user.deleteAllSongFromPlaylist ();
+        this.userRepository.save (user);
     }
 }
