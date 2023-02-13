@@ -5,9 +5,7 @@ import java.util.Set;
 public class SongsByGenreDTO {
 
     private Set<SongDTO> popSongs;
-
     private Set<SongDTO> rockSongs;
-
     private Set<SongDTO> jazzSongs;
 
     public SongsByGenreDTO() {
