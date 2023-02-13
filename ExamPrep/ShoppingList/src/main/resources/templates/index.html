@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html >
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -16,14 +17,17 @@
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
                 <ul class="navbar-nav row">
+                    <th:block th:if="${@loggedUser.id == 0}">
                     <li class="nav-item col-md-4">
-                        <a class="nav-link text-white active h5" href="/">Login</a>
+                        <a class="nav-link text-white active h5" href="/login">Login</a>
                     </li>
                     <li class="nav-item col-md-4">
-                        <a class="nav-link text-white active h5" href="/">Register</a>
+                        <a class="nav-link text-white active h5" href="/register">Register</a>
                     </li>
+                    </th:block>
                 </ul>
             </div>
 		</nav>
@@ -35,9 +39,9 @@
             <p class="h4">The application is here to help us keep in mind our shopping needs.</p>
             <hr class="my-3 bg-white w-75" />
             <h3>
-                <a class="text-primay" href="/">Login</a>
+                <a class="text-primay" href="/login">Login</a>
                 if you have an account or
-                <a class="text-primay" href="/">Register</a>
+                <a class="text-primay" href="/register">Register</a>
                 now and check our deals.
             </h3>
         </div>

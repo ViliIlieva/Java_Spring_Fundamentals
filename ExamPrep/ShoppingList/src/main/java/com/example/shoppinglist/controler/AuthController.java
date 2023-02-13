@@ -1,12 +1,11 @@
-package com.example.spotifyplaylistapp.controller;
+package com.example.shoppinglist.controler;
 
-import com.example.spotifyplaylistapp.model.dtos.LoginDTO;
-import com.example.spotifyplaylistapp.model.dtos.UserRegistrationDTO;
-import com.example.spotifyplaylistapp.service.AuthService;
+import com.example.shoppinglist.model.dtos.LoginDTO;
+import com.example.shoppinglist.model.dtos.UserRegistrationDTO;
+import com.example.shoppinglist.service.AuthService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -31,7 +30,6 @@ public class AuthController {
     public LoginDTO initLoginDTO() {
         return new LoginDTO ();
     }
-
 
     @GetMapping("/register")
     public String register(){
@@ -109,4 +107,6 @@ public class AuthController {
 
         return "redirect:/";
     }
+
+
 }

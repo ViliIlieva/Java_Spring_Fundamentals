@@ -13,7 +13,7 @@ public class Category extends BaseEntity{
     @Column(nullable = false, unique = true)
     private CategoryEnum name;
 
-    @Column(nullable = false)
+    @Column
     private String description;
 
     @OneToMany(mappedBy = "category", fetch = FetchType.LAZY)

@@ -17,7 +17,7 @@ public class Product extends BaseEntity{
     @Column(nullable = false)
     private String description;
 
-    @Column(nullable = false, unique = true)
+    @Column(nullable = false)
     private int price;
 
     @Column(name = "needed_before")
