@@ -24,12 +24,12 @@ public class SongController {
     }
 
     @ModelAttribute("addSongDTO")
-    public AddSongDTO initAddSongDTO() {
-        return new AddSongDTO();
+    public AddSongDTO initAddSongDTO(){
+        return new AddSongDTO ();
     }
 
     @GetMapping("/songs/add")
-    public String songs() {
+    public String songs(){
         if (!this.authService.isLoggedIn()) {
             return "redirect:/";
         }
@@ -40,18 +40,37 @@ public class SongController {
     @PostMapping("/songs/add")
     public String songs(@Valid AddSongDTO addSongDTO,
                         BindingResult bindingResult,
-                        RedirectAttributes redirectAttributes) {
+                        RedirectAttributes redirectAttributes){
         if (!this.authService.isLoggedIn()) {
             return "redirect:/";
         }
 
-        if (bindingResult.hasErrors() || !this.songService.addSong(addSongDTO)) {
-            redirectAttributes.addFlashAttribute("addSongDTO", addSongDTO);
-            redirectAttributes.addFlashAttribute(
+        if(bindingResult.hasErrors () || !this.songService.addSong (addSongDTO)) {
+            redirectAttributes.addFlashAttribute ("addSongDTO", addSongDTO);
+            redirectAttributes.addFlashAttribute (
                     "org.springframework.validation.BindingResult.addSongDTO", bindingResult);
 
             return "redirect:/songs/add";
         }
+
         return "redirect:/home";
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

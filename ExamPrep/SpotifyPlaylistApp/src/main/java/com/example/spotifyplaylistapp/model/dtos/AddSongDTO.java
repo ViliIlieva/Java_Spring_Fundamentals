@@ -9,18 +9,23 @@ import java.time.LocalDate;
 
 public class AddSongDTO {
     private Long id;
+
     @Size(min = 3, max = 20)
     @NotBlank
     private String performer;
+
     @Size(min = 2, max = 20)
     @NotBlank
     private String title;
+
     @PastOrPresent
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private LocalDate releaseDate;
+
     @Positive
     @NotNull
     private Long duration;
+
     @NotNull
     private StyleEnum style;
 

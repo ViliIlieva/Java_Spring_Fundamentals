@@ -14,11 +14,14 @@ import java.util.stream.Collectors;
 
 @Component
 public class CategorySeeder implements CommandLineRunner {
+
     private final StyleRepository styleRepository;
+
     @Autowired
     public CategorySeeder(StyleRepository styleRepository) {
         this.styleRepository = styleRepository;
     }
+
     //задача 2 от изпита
     // метод който проверява дали имаме връзка с нашата база
     @Override
