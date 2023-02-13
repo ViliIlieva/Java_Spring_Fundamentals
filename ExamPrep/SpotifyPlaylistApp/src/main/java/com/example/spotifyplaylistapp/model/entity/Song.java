@@ -8,26 +8,19 @@ import java.util.Set;
 @Entity
 @Table(name = "songs")
 public class Song extends BaseEntity {
-
     @Column(nullable = false, unique = true)
     private String performer;
-
     @Column(nullable = false)
     private String title;
-
     @Column(nullable = false)
     private Long duration;
-
     @Column
     private LocalDate releaseDate;
-
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "style_id")
     private Style style;
-
     @ManyToMany(mappedBy = "playlist")
     private Set<User> users;
-
     public Song() {
     }
 
