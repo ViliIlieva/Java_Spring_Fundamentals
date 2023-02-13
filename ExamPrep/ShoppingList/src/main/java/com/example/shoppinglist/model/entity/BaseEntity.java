@@ -1,4 +1,4 @@
-package com.example.likebookapplication.model.entity;
+package com.example.shoppinglist.model.entity;
 
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
