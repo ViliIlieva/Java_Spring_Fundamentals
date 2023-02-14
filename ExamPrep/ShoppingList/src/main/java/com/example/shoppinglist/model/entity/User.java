@@ -54,4 +54,8 @@ public class User extends BaseEntity {
     public void setShoppingList(Set<Product> shoppingList) {
         this.shoppingList = shoppingList;
     }
+
+    public void addProductToShoppingList(Product product){
+        this.shoppingList.add(product);
+    }
 }

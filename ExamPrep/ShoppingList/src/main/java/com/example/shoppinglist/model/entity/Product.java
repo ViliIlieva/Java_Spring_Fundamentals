@@ -80,4 +80,5 @@ public class Product extends BaseEntity{
     public void setUsers(Set<User> users) {
         this.users = users;
     }
+
 }

@@ -1,5 +1,6 @@
 package com.example.shoppinglist.controler;
 
+import com.example.shoppinglist.model.dtos.ProductByCategoryDTO;
 import com.example.shoppinglist.service.AuthService;
 import com.example.shoppinglist.service.HomeService;
 import com.example.shoppinglist.service.ProductService;
@@ -8,6 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
 
 @Controller
 public class HomeController {
@@ -27,6 +30,11 @@ public class HomeController {
         this.productService = productService;
     }
 
+    @ModelAttribute
+    public ProductByCategoryDTO products(){
+        return new ProductByCategoryDTO();
+    }
+
     @GetMapping("/")
     public String loggedOutIndex(){
        if (this.authService.isLoggedIn()) {
@@ -41,11 +49,18 @@ public class HomeController {
            return "redirect:/";
        }
 
-//       model.addAttribute ("products", this.homeService.getSongs ());
-//       model.addAttribute ("sumOfDuration", this.songService.sumOfDuration (this.songService.getPlaylist (loggedUser.getId ())));
-//       model.addAttribute ("playlist", this.songService.getPlaylist(loggedUser.getId ()));
+       model.addAttribute ("products", this.homeService.getProducts());
 
        return "home";
    }
+
+    @GetMapping("/buy/{id}")
+    String buyProduct(@PathVariable("id") Long id){
+        if (!this.authService.isLoggedIn()) {
+            return "redirect:/";
+        }
+        this.productService.removeProductById(id);
+        return "redirect:/home";
+    }
 
 }

@@ -2,7 +2,9 @@ package com.example.shoppinglist.service;
 
 import com.example.shoppinglist.model.dtos.LoginDTO;
 import com.example.shoppinglist.model.dtos.UserRegistrationDTO;
+import com.example.shoppinglist.model.entity.Product;
 import com.example.shoppinglist.model.entity.User;
+import com.example.shoppinglist.repository.ProductRepository;
 import com.example.shoppinglist.repository.UserRepository;
 import com.example.shoppinglist.session.LoggedUser;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,11 +16,17 @@ import java.util.Optional;
 public class AuthService {
     private final UserRepository userRepository;
     private final LoggedUser userSession;
+    private final ProductRepository productRepository;
+    private final ProductService productService;
 
     @Autowired
-    public AuthService(UserRepository userRepository, LoggedUser userSession) {
+    public AuthService(UserRepository userRepository,
+                       LoggedUser userSession,
+                       ProductRepository productRepository, ProductService productService) {
         this.userRepository = userRepository;
         this.userSession = userSession;
+        this.productRepository = productRepository;
+        this.productService = productService;
     }
 
     public boolean isLoggedIn(){
@@ -73,6 +81,15 @@ public class AuthService {
 
     public long getLoggedUserId() {
         return this.userSession.getId();
+    }
+
+    public void addProductToUser(long userId, Product product){
+        User user = this.userRepository.findById(userId).orElseThrow();
+        if(user.getShoppingList().stream().noneMatch(
+                p -> p.getId().equals(product.getId()))){
+            user.addProductToShoppingList(product);
+            this.userRepository.save(user);
+        }
     }
 
 }

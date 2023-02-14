@@ -12,6 +12,9 @@ import com.example.shoppinglist.session.LoggedUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Set;
+import java.util.stream.Collectors;
+
 @Service
 public class ProductService {
     private final CategoryRepository categoryRepository;
@@ -52,8 +55,15 @@ public class ProductService {
         return true;
     }
 
-    public Product findSongById(Long productID) {
-        return this.productRepository.findById (productID).orElseThrow ();
+    public Product findProductById(Long productId) {
+        return this.productRepository.findById(productId).orElseThrow();
+    }
+
+    public Set<ProductDTO> findProductByCategory(Category category) {
+        return this.productRepository.findByCategory(category)
+                .stream()
+                .map(this::mapSongDTO)
+                .collect(Collectors.toSet());
     }
 
     private ProductDTO mapSongDTO(Product product) {
@@ -63,4 +73,10 @@ public class ProductService {
         productDTO.setPrice (product.getPrice ());
         return productDTO;
     }
+
+    public void removeProductById(Long id){
+        productRepository.deleteById (id);
+    }
+
+
 }
