@@ -16,8 +16,6 @@ public class Category extends BaseEntity{
     @Column
     private String description;
 
-    @OneToMany(mappedBy = "category", fetch = FetchType.LAZY)
-    private Set<Product> products;
     public Category() {
     }
 
@@ -41,11 +39,4 @@ public class Category extends BaseEntity{
         this.description = description;
     }
 
-    public Set<Product> getProducts() {
-        return products;
-    }
-
-    public void setProducts(Set<Product> products) {
-        this.products = products;
-    }
 }

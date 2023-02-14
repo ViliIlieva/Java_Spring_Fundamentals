@@ -14,12 +14,6 @@ public class User extends BaseEntity {
     @Column(nullable = false, unique = true)
     private String email;
 
-    @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    @JoinTable(name = "users_products",
-            joinColumns = @JoinColumn(name = "user_id"),
-            inverseJoinColumns = @JoinColumn(name = "product_id"))
-    private Set<Product> shoppingList;
-
     public User() {
     }
 
@@ -45,17 +39,5 @@ public class User extends BaseEntity {
 
     public void setEmail(String email) {
         this.email = email;
-    }
-
-    public Set<Product> getShoppingList() {
-        return shoppingList;
-    }
-
-    public void setShoppingList(Set<Product> shoppingList) {
-        this.shoppingList = shoppingList;
-    }
-
-    public void addProductToShoppingList(Product product){
-        this.shoppingList.add(product);
     }
 }

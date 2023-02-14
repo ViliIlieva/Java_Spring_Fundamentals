@@ -72,7 +72,7 @@
 					</div>
             </div>
         </div>
-        <a href="/" class="btn btn-danger">Buy all products for {totalPriceOfProducts} lv|</a>
+        <a th:href="@{/buyAll}" th:text="|Buy all products for ${totalPriceOfProducts} lv|" class="btn btn-danger"></a>
     </div>
 </main>
 <footer class="footer bg-transparent  py-2">

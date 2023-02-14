@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BattleShip/BattleShip.iml" filepath="$PROJECT_DIR$/BattleShip/BattleShip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ExamPrep.iml" filepath="$PROJECT_DIR$/.idea/ExamPrep.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LikeBookApplication/LikeBookApplication/LikeBookApplication.iml" filepath="$PROJECT_DIR$/LikeBookApplication/LikeBookApplication/LikeBookApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ShoppingList/ShoppingList.iml" filepath="$PROJECT_DIR$/ShoppingList/ShoppingList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpotifyPlaylistApp/SpotifyPlaylistApp.iml" filepath="$PROJECT_DIR$/SpotifyPlaylistApp/SpotifyPlaylistApp.iml" />
+    </modules>
+  </component>
+</project>

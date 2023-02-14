@@ -27,9 +27,6 @@ public class Product extends BaseEntity{
     @JoinColumn(name = "category_id")
     private Category category;
 
-    @ManyToMany(mappedBy = "shoppingList")
-    private Set<User> users;
-
     public Product() {
     }
 
@@ -71,14 +68,6 @@ public class Product extends BaseEntity{
 
     public void setCategory(Category category) {
         this.category = category;
-    }
-
-    public Set<User> getUsers() {
-        return users;
-    }
-
-    public void setUsers(Set<User> users) {
-        this.users = users;
     }
 
 }

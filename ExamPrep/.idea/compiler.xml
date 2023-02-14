@@ -6,15 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="LikeBookApplication" />
+        <module name="SpotifyPlaylistApp" />
+        <module name="BattleShip" />
+        <module name="ShoppingList" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="BattleShip" target="17" />
       <module name="LikeBookApplication" target="17" />
+      <module name="ShoppingList" target="17" />
+      <module name="SpotifyPlaylistApp" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="BattleShip" options="-parameters" />
       <module name="LikeBookApplication" options="-parameters" />
+      <module name="ShoppingList" options="-parameters" />
+      <module name="SpotifyPlaylistApp" options="-parameters" />
     </option>
   </component>
 </project>

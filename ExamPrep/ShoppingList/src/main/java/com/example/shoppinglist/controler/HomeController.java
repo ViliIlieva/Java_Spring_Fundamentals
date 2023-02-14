@@ -50,6 +50,7 @@ public class HomeController {
        }
 
        model.addAttribute ("products", this.homeService.getProducts());
+       model.addAttribute ("totalPriceOfProducts", this.productService.getTotalPrice());
 
        return "home";
    }
@@ -60,6 +61,16 @@ public class HomeController {
             return "redirect:/";
         }
         this.productService.removeProductById(id);
+        return "redirect:/home";
+    }
+
+    @GetMapping("/buyAll")
+    public String buyAll(){
+
+        if (!this.authService.isLoggedIn()) {
+            return "redirect:/";
+        }
+        productService.removeAllProducts();
         return "redirect:/home";
     }
 

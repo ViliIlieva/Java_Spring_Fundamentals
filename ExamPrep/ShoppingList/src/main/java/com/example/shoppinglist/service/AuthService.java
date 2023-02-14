@@ -29,18 +29,18 @@ public class AuthService {
         this.productService = productService;
     }
 
-    public boolean isLoggedIn(){
-        return this.userSession.getId ()>0;
+    public boolean isLoggedIn() {
+        return this.userSession.getId() > 0;
     }
 
     public boolean register(UserRegistrationDTO registrationDTO) {
         //дали двете пароли съвпадат
-        if (!registrationDTO.getPassword().equals(registrationDTO.getConfirmPassword())){
+        if (!registrationDTO.getPassword().equals(registrationDTO.getConfirmPassword())) {
             return false;
         }
         //имейла дали вече го има в базата, защото трябва да е уникален
         Optional<User> byEmail = this.userRepository.findByEmail(registrationDTO.getEmail());
-        if(byEmail.isPresent()){
+        if (byEmail.isPresent()) {
             return false;
         }
         //дали юзъра вече го има в базата, защото трябва да е уникален
@@ -59,7 +59,7 @@ public class AuthService {
         return true;
     }
 
-    public boolean login( LoginDTO loginDTO) {
+    public boolean login(LoginDTO loginDTO) {
         //създай ми юзър
         //открий по юзър нейм и парола, подадени от формата дали ги има в репозиторито
         Optional<User> user = this.userRepository
@@ -82,14 +82,5 @@ public class AuthService {
     public long getLoggedUserId() {
         return this.userSession.getId();
     }
-
-    public void addProductToUser(long userId, Product product){
-        User user = this.userRepository.findById(userId).orElseThrow();
-        if(user.getShoppingList().stream().noneMatch(
-                p -> p.getId().equals(product.getId()))){
-            user.addProductToShoppingList(product);
-            this.userRepository.save(user);
-        }
-    }
-
 }
+
