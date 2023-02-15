@@ -4,7 +4,6 @@ import com.example.shoppinglist.model.dtos.ProductByCategoryDTO;
 import com.example.shoppinglist.model.dtos.ProductDTO;
 import com.example.shoppinglist.model.entity.Category;
 import com.example.shoppinglist.model.entity.CategoryEnum;
-import com.example.shoppinglist.model.entity.Product;
 import com.example.shoppinglist.repository.CategoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

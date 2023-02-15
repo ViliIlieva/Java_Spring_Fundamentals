@@ -12,12 +12,12 @@ import lombok.Setter;
 @Table(name = "categories")
 public class Category extends BaseEntity{
     @Enumerated(EnumType.STRING)
-    private CategoryName name;
+    private CategoryEnum name;
 
     @Column(name = "needed_time", nullable = false)
     private Integer neededTime;
 
-    public Category(CategoryName name) {
+    public Category(CategoryEnum name) {
         this.name = name;
     }
 }

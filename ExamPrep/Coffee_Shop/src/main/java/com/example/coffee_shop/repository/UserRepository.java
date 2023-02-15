@@ -18,4 +18,6 @@ public interface UserRepository extends JpaRepository<User, Long> {
 
     @Query("SELECT u FROM User u ORDER BY size(u.orders) DESC")
     List<User> findCountOfOrdersByEmployee();
+
+    Optional<User> findByUsernameAndPassword(String username, String password);
 }

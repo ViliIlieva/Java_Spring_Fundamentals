@@ -1,7 +1,7 @@
 package com.example.coffee_shop.init;
 
 import com.example.coffee_shop.models.entity.Category;
-import com.example.coffee_shop.models.entity.CategoryName;
+import com.example.coffee_shop.models.entity.CategoryEnum;
 import com.example.coffee_shop.repository.CategoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -24,7 +24,7 @@ public class DBInit implements CommandLineRunner {
     public void run(String... args) throws Exception {
 
         if (this.categoryRepository.count() == 0) {
-            Arrays.stream(CategoryName.values())
+            Arrays.stream(CategoryEnum.values())
                     .forEach(categoryName -> {
                         Category category = new Category();
                         category.setName(categoryName);
