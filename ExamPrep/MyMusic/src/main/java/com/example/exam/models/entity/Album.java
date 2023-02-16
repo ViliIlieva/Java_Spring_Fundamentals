@@ -19,7 +19,7 @@ public class Album  extends BaseEntity{
     private String name;
 
     @Column(name = "image_url", nullable = false)
-    private String imageUrl;
+    private String imgUrl;
 
     @Column(nullable = false, columnDefinition = "TEXT")
     private String description;
@@ -31,7 +31,7 @@ public class Album  extends BaseEntity{
     private BigDecimal price;
 
     @Column(nullable = false, name = "release_date")
-    private LocalDate releasedDate;
+    private LocalDate releaseDate;
 
     private String producer;
 

@@ -10,10 +10,10 @@ import lombok.NoArgsConstructor;
 public class LoginDTO {
 
     @NotBlank
-    @Size(min = 5, max = 20)
+    @Size(min = 3, max = 20)
     private String username;
 
     @NotBlank
-    @Size(min = 3)
+    @Size(min = 5, max = 20)
     private String password;
 }

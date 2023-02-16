@@ -14,15 +14,14 @@ import lombok.NoArgsConstructor;
 public class UserRegistrationDTO {
 
     @NotNull
-    @Size(min = 5, max = 20)
+    @Size(min = 3, max = 20)
     @UniqueUserName(message = "Username should be unique")
     private String username;
 
-    private String firstName;
 
     @NotNull
-    @Size(min = 5, max = 20)
-    private String lastName;
+    @Size(min = 3, max = 20)
+    private String fullName;
 
     @Email
     @NotBlank
@@ -30,7 +29,7 @@ public class UserRegistrationDTO {
     private String email;
 
     @NotNull
-    @Size(min = 3)
+    @Size(min = 5, max = 20)
     private String password;
 
     @NotNull
